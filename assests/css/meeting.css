@@ -13,12 +13,11 @@
 }
 .meet_tab {
   background-color: var(--white);
-  border: 1px solid #e0e0e0;
+  border: 0px solid #e7e4e4;
   border-radius: 8px;
   padding: 20px;
   margin-bottom: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  height: fit-content;
 }
 
 .mbadge {
@@ -36,7 +35,7 @@
 }
 .meet_summary {
   background-color: var(--white);
-  border: 1px solid #e0e0e0;
+  border: 0px solid #e7e4e4;
   border-radius: 8px;
   padding: 20px;
   margin-bottom: 20px;

@@ -548,6 +548,10 @@ select {
 .modal-body .form-label {
 	font-size: 14px !important;
 }
+/* added by abhishek on 16 june 2025 */
+.form-label span {
+            color: red;
+        }
 
 .form-control:focus,
 .form-select:focus {
