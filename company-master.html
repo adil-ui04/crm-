@@ -1,179 +1,196 @@
+<head>
+  <style>
+    .universal_main {
+      display: block;
+    }
+  </style>
+</head>
 <div class="main_containers">
-    <div class="universal_title">
-        <h1>Add Corporate </h1>
-    </div>
-    <form class="universal_main" id="cm-form">
-        <section>
-            <div class="form_groups">
-                <label for="corporateName"><b>*</b>Name</label>
-                <input type="text" name="corporateName" placeholder=" Name">
-            </div>
-            <div class="form_groups">
-                <label for="corporateName"><b>*</b>Short Name</label>
-                <input type="text" name="corporateName" placeholder="Short Name">
-            </div>
-            <div class="form_groups">
-                <label for="sector"><b>*</b>Sector</label>
-                <select class="--sel_width" name="sector">
-                    <option value="" selected disabled>Select Sector</option>
-                    <option>Sector One</option>
-                    <option>Sector Two</option>
-                    <option>Sector Threee</option>
-                </select>
-            </div>
-            <div class="form_groups">
-                <label for="sector"><b>*</b>RM</label>
-                <select class="--sel_width" name="sector">
-                    <option value="" selected disabled>Select RM</option>
-                    <option>RM One</option>
-                    <option>RM Two</option>
-                    <option>RM Threee</option>
-                </select>
-            </div>
-            <div class="form_groups">
-                <label for="sector"><b>*</b>Analyst</label>
-                <select class="--sel_width" name="sector">
-                    <option value="" selected disabled>Select Analyst</option>
-                    <option>Analyst One</option>
-                    <option>Analyst Two</option>
-                    <option>Analyst Threee</option>
-                </select>
-            </div>
-            <div class="form_groups">
-                <label for="bloombergCode">Bloomberg Code</label>
-                <input type="text" name="bloombergCode" placeholder="Bloomberg Code">
-            </div>
-            <div class="form_groups">
-                <label for="country">Country</label>
-                <input type="text" name="country" placeholder="Country">
-            </div>
-            <div class="form_groups">
-                <label for="geography">Geography</label>
-                <input type="text" name="geography" placeholder="Geography">
-            </div>
-            <div class="form_groups">
-                <label for="">MiFID GIC Sector:</label>
-                <input type="text" name="" placeholder="MiFID GIC Sector:">
-            </div>
-            <div class="form_groups">
-                <label>Status</label>
-                <div class="radios_group">
-                    <input type="radio" name="corporateStatus" value="active">
-                    <label for="active">Active</label>
-                    <input type="radio" name="corporateStatus" value="inactive" checked>
-                    <label for="inactive">Inactive</label>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <!-- Right Side -->
-
-            <div class="form_groups">
-                <label for="secondaryManager">IR Name</label>
-                <input type="text" name="secondaryManager" placeholder="IR Name">
-            </div>
-            <div class="form_groups">
-                <label for="">IR Email</label>
-                <input type="text" name="" placeholder="IR Email">
-            </div>
-            <div class="form_groups">
-                <label for="">IR Mobile</label>
-                <input type="text" name="" placeholder="IR Mobile">
-            </div>
-            <div class="form_checkbox">
-                <input type="checkbox">
-                <label for="Coordinate">Coordinate Same as IR</label>
-            </div>
-            <div class="form_groups">
-                <label for="">Coordinator Name</label>
-                <input type="text" name="" placeholder="Coordinator Name">
-            </div>
-            <div class="form_groups">
-                <label for="">Coordinator Email</label>
-                <input type="text" name="" placeholder="Coordinator Email">
-            </div>
-            <div class="form_groups">
-                <label for="">Coordinator Mobile</label>
-                <input type="text" name="" placeholder="Coordinator Mobile">
-            </div>
-        </section>
-        <div class="susan_btn">
-            <button type="submit" class="comm_btn">Save</button>
-            <button type="button" class="comm_btn --bg_white">Cancel</button>
+  <div class="universal_title">
+    <h1>Add Corporate</h1>
+  </div>
+  <form class="universal_main" id="cm-form">
+    <section class="additional_form">
+      <section>
+        <div class="form_groups">
+          <label for="corporateName"><b>*</b>Name</label>
+          <input type="text" name="corporateName" placeholder=" Name" />
         </div>
-    </form>
+        <div class="form_groups">
+          <label for="corporateName"><b>*</b>Short Name</label>
+          <input type="text" name="corporateName" placeholder="Short Name" />
+        </div>
+        <div class="form_groups">
+          <label for="sector"><b>*</b>Sector</label>
+          <select class="--sel_width" name="sector">
+            <option value="" selected disabled>Select Sector</option>
+            <option>Sector One</option>
+            <option>Sector Two</option>
+            <option>Sector Threee</option>
+          </select>
+        </div>
+        <div class="form_groups">
+          <label for="sector"><b>*</b>RM</label>
+          <select class="--sel_width" name="sector">
+            <option value="" selected disabled>Select RM</option>
+            <option>RM One</option>
+            <option>RM Two</option>
+            <option>RM Threee</option>
+          </select>
+        </div>
+        <div class="form_groups">
+          <label for="sector"><b>*</b>Analyst</label>
+          <select class="--sel_width" name="sector">
+            <option value="" selected disabled>Select Analyst</option>
+            <option>Analyst One</option>
+            <option>Analyst Two</option>
+            <option>Analyst Threee</option>
+          </select>
+        </div>
+        <div class="form_groups">
+          <label for="bloombergCode">Bloomberg Code</label>
+          <input
+            type="text"
+            name="bloombergCode"
+            placeholder="Bloomberg Code"
+          />
+        </div>
+        <div class="form_groups">
+          <label for="country">Country</label>
+          <input type="text" name="country" placeholder="Country" />
+        </div>
+        <div class="form_groups">
+          <label for="geography">Geography</label>
+          <input type="text" name="geography" placeholder="Geography" />
+        </div>
+        <div class="form_groups">
+          <label for="">MiFID GIC Sector:</label>
+          <input type="text" name="" placeholder="MiFID GIC Sector:" />
+        </div>
+        <div class="form_groups">
+          <label>Status</label>
+          <div class="radios_group">
+            <input type="radio" name="corporateStatus" value="active" />
+            <label for="active">Active</label>
+            <input
+              type="radio"
+              name="corporateStatus"
+              value="inactive"
+              checked
+            />
+            <label for="inactive">Inactive</label>
+          </div>
+        </div>
+      </section>
 
+      <section>
+        <!-- Right Side -->
+
+        <div class="form_groups">
+          <label for="secondaryManager">IR Name</label>
+          <input type="text" name="secondaryManager" placeholder="IR Name" />
+        </div>
+        <div class="form_groups">
+          <label for="">IR Email</label>
+          <input type="text" name="" placeholder="IR Email" />
+        </div>
+        <div class="form_groups">
+          <label for="">IR Mobile</label>
+          <input type="text" name="" placeholder="IR Mobile" />
+        </div>
+        <div class="form_checkbox">
+          <input type="checkbox" />
+          <label for="Coordinate">Coordinate Same as IR</label>
+        </div>
+        <div class="form_groups">
+          <label for="">Coordinator Name</label>
+          <input type="text" name="" placeholder="Coordinator Name" />
+        </div>
+        <div class="form_groups">
+          <label for="">Coordinator Email</label>
+          <input type="text" name="" placeholder="Coordinator Email" />
+        </div>
+        <div class="form_groups">
+          <label for="">Coordinator Mobile</label>
+          <input type="text" name="" placeholder="Coordinator Mobile" />
+        </div>
+      </section>
+    </section>
+    <div class="susan_btn">
+      <button type="submit" class="comm_btn">Save</button>
+      <button type="button" class="comm_btn --bg_white">Cancel</button>
+    </div>
+  </form>
 </div>
 <script>
-    $(document).ready(function () {
-        $("#cm-form").validate({
-            rules: {
-                corporateName: {
-                    required: true,
-                    minlength: 2
-                },
-                sector: {
-                    required: true
-                },
-                // bloombergCode: {
-                //     required: true,
-                //     minlength: 3
-                // },
-                // country: {
-                //     required: true
-                // },
-                // geography: {
-                //     required: true
-                // },
-                // primaryAnalyst: {
-                //     required: true
-                // },
-                // secondaryManager: {
-                //     required: true
-                // },
-                // mifidName: {
-                //     required: true
-                // },
-                // corporateStatus: {
-                //     required: true
-                // }
-            },
-            messages: {
-                corporateName: {
-                    required: " enter corporate name",
-                    minlength: "Corporate name must be at least 2 characters long"
-                },
-                sector: {
-                    required: " select  sector"
-                },
-                // bloombergCode: {
-                //     required: " enter the Bloomberg code",
-                //     minlength: "Bloomberg code must be at least 3 characters long"
-                // },
-                // country: {
-                //     required: " enter the country"
-                // },
-                // geography: {
-                //     required: " enter the geography"
-                // },
-                // primaryAnalyst: {
-                //     required: " enter the primary research analyst"
-                // },
-                // secondaryManager: {
-                //     required: " enter the secondary account manager"
-                // },
-                // mifidName: {
-                //     required: " enter the MiFID name"
-                // },
-                // corporateStatus: {
-                //     required: " select the corporate status"
-                // }
-            },
-            submitHandler: function (form) {
-                alert("Form submitted successfully!");
-                form.submit();
-            }
-        });
+  $(document).ready(function () {
+    $("#cm-form").validate({
+      rules: {
+        corporateName: {
+          required: true,
+          minlength: 2,
+        },
+        sector: {
+          required: true,
+        },
+        // bloombergCode: {
+        //     required: true,
+        //     minlength: 3
+        // },
+        // country: {
+        //     required: true
+        // },
+        // geography: {
+        //     required: true
+        // },
+        // primaryAnalyst: {
+        //     required: true
+        // },
+        // secondaryManager: {
+        //     required: true
+        // },
+        // mifidName: {
+        //     required: true
+        // },
+        // corporateStatus: {
+        //     required: true
+        // }
+      },
+      messages: {
+        corporateName: {
+          required: " enter corporate name",
+          minlength: "Corporate name must be at least 2 characters long",
+        },
+        sector: {
+          required: " select  sector",
+        },
+        // bloombergCode: {
+        //     required: " enter the Bloomberg code",
+        //     minlength: "Bloomberg code must be at least 3 characters long"
+        // },
+        // country: {
+        //     required: " enter the country"
+        // },
+        // geography: {
+        //     required: " enter the geography"
+        // },
+        // primaryAnalyst: {
+        //     required: " enter the primary research analyst"
+        // },
+        // secondaryManager: {
+        //     required: " enter the secondary account manager"
+        // },
+        // mifidName: {
+        //     required: " enter the MiFID name"
+        // },
+        // corporateStatus: {
+        //     required: " select the corporate status"
+        // }
+      },
+      submitHandler: function (form) {
+        alert("Form submitted successfully!");
+        form.submit();
+      },
     });
+  });
 </script>

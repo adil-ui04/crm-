@@ -1,374 +1,400 @@
+<head>
+  <style>
+    .universal_main {
+      display: block;
+      background: #fff;
+    }
+  </style>
+</head>
 <div class="main_containers">
-    <div class="universal_title">
-        <h1> Add Corporate Rep</h1>
-    </div>
-    <form class="universal_main" id="cr-form">
-        <section>
-            <div class="form_groups">
-                <label for="corporateGroup"><b>*</b>Corporate Group</label>
-                <select class="--sel_width" name="corporateGroup">
-                    <option selected disabled>Select Group</option>
-                    <option>Corporate Group One</option>
-                    <option>Corporate Group Two</option>
-                    <option>Corporate Group Threee</option>
-                </select>
-            </div>
-            <div class="form_groups">
-                <label for="corporateRepCategory"><b>*</b>Corporate Representative Category</label>
-                <select class="--sel_width" name="corporateRepCategory">
-                    <option selected disabled>Select Representative </option>
-                    <option>Category One</option>
-                    <option>Category Two</option>
-                    <option>Category Threee</option>
-                </select>
-            </div>
-            <div class="form_groups">
-                <label for="firstName"><b>*</b>Corporate Representative Name</label>
-                <input type="text" name="firstName" placeholder="Corporate Representative Name">
-            </div>
-            <div class="form_groups">
-                <label for="lastName">Last Name</label>
-                <input type="text" name="lastName" placeholder="Last Name">
-            </div>
-            <div class="form_groups">
-                <label for="rm"><b>*</b>RM</label>
-                <input type="text" name="rm" placeholder="RM">
-            </div>
-            <div class="form_groups">
-                <label for="srm">Secondary RM</label>
-                <input type="text" name="srm" placeholder="Secondary RM">
-            </div>
-            <div class="form_groups">
-                <label for="designation"><b>*</b>Designation</label>
-                <input type="text" name="designation" placeholder="Designation">
-            </div>
-            <div class="form_groups">
-                <label for="">Secretory Name</label>
-                <input type="text" name="" placeholder="Secretory Name">
-            </div>
-            <div class="form_groups">
-                <label for="">Secretory Phone</label>
-                <input type="text" name="" placeholder="Secretory Phone">
-            </div>
-            <div class="form_groups">
-                <label for="">Secretory Email</label>
-                <input type="text" name="" placeholder="Secretory Email">
-            </div>
-            <div class="form_groups">
-                <label for="mobile"><b>*</b>Mobile </label>
-                <input type="number" name="mobile" placeholder="Mobile Number">
-            </div>
-            <div class="form_groups">
-                <label for="email"><b>*</b>Email </label>
-                <input type="email" name="Email" placeholder="Email ">
-            </div>
-            <div class="form_groups">
-                <label for="aemail">Alternate Email </label>
-                <input type="email" name="aemail" placeholder="Alternate Email ">
-            </div>
-            <div class="form_groups">
-                <label for="corporateRepCategory"><b>*</b>Meal</label>
-                <select class="--sel_width" name="corporateRepCategory">
-                    <option selected disabled>Select Meal </option>
-                    <option>Meal One</option>
-                    <option>Meal Two</option>
-                    <option>Meal Threee</option>
-                </select>
-            </div>
-            <div class="form_groups">
-                <label for="officePhone">Office Phone</label>
-                <input type="number" name="officePhone" placeholder="Office Number">
-            </div>
-            <div class="form_groups">
-                <label for="otherPhone">Other Phone</label>
-                <input type="number" name="otherPhone" placeholder="Other Number">
-            </div>
-            <div class="form_groups">
-                <label for="homePhone">Home Phone</label>
-                <input type="text" name="homePhone" placeholder="Home Number">
-            </div>
-
-
-        </section>
-
-        <section>
-            <!-- Right Side -->
-            <div class="form_groups">
-                <label for="address">Address</label>
-                <textarea name="address" rows="3" placeholder="Address"></textarea>
-            </div>
-            <div class="form_groups">
-                <label for="city">City</label>
-                <input type="text" name="city" placeholder="City">
-            </div>
-            <div class="form_groups">
-                <label for="pinCode">Pin </label>
-                <input type="number" name="pinCode" placeholder="Pin ">
-            </div>
-            <div class="form_groups">
-                <label for="state">State</label>
-                <input type="text" name="state" placeholder="State">
-            </div>
-            <div class="form_groups">
-                <label for="country">Country</label>
-                <input type="text" name="country" placeholder="Country">
-            </div>
-            <div class="form_groups">
-                <label for="geography">Geography</label>
-                <input type="text" name="geography" placeholder="Geography">
-            </div>
-            <div class="form_groups">
-                <label for="remark">Remark</label>
-                <textarea name="remark" rows="5" placeholder="Remark"></textarea>
-            </div>
-            <div class="form_groups">
-                <label for="sector">Sector</label>
-                <select class="--sel_width" name="sector">
-                    <option value="" selected disabled>Select Sector</option>
-                    <option>Select Sector 1</option>
-                    <option>Select Sector 2</option>
-                    <option>Select Sector 3</option>
-                </select>
-            </div>
-            <div class="form_groups">
-                <label for="sectorSoftCopy">Sector Soft Copy</label>
-                <input type="text" name="sectorSoftCopy" placeholder="Sector Soft Copy">
-            </div>
-            <div class="form_groups">
-                <label for="sectorHardCopy">Sector Hard Copy</label>
-                <input type="text" name="sectorHardCopy" placeholder="Sector Hard Copy">
-            </div>
-            <div class="form_groups">
-                <label for="secretoryDetails">Secretory Details</label>
-                <textarea name="secretoryDetails" rows="5" placeholder="Secretory Details"></textarea>
-            </div>
-            <div class="form_groups">
-                <label>Contact Status</label>
-                <div class="radios_group">
-                    <input type="radio" name="contactStatus" value="active">
-                    <label for="active">Active</label>
-                    <input type="radio" name="contactStatus" value="inactive" checked>
-                    <label for="inactive">Inactive</label>
-                </div>
-            </div>
-        </section>
-
-        <div class="susan_btn">
-            <button type="submit" class="comm_btn">Save</button>
-            <button type="button" class="comm_btn --bg_white">Cancel</button>
+  <div class="universal_title">
+    <h1>Add Corporate Rep</h1>
+  </div>
+  <form class="universal_main" id="cr-form">
+    <section class="additional_form">
+      <section>
+        <div class="form_groups">
+          <label for="corporateGroup"><b>*</b>Corporate Group</label>
+          <select class="--sel_width" name="corporateGroup">
+            <option selected disabled>Select Group</option>
+            <option>Corporate Group One</option>
+            <option>Corporate Group Two</option>
+            <option>Corporate Group Threee</option>
+          </select>
         </div>
-    </form>
+        <div class="form_groups">
+          <label for="corporateRepCategory"
+            ><b>*</b>Corporate Representative Category</label
+          >
+          <select class="--sel_width" name="corporateRepCategory">
+            <option selected disabled>Select Representative</option>
+            <option>Category One</option>
+            <option>Category Two</option>
+            <option>Category Threee</option>
+          </select>
+        </div>
+        <div class="form_groups">
+          <label for="firstName"><b>*</b>Corporate Representative Name</label>
+          <input
+            type="text"
+            name="firstName"
+            placeholder="Corporate Representative Name"
+          />
+        </div>
+        <div class="form_groups">
+          <label for="lastName">Last Name</label>
+          <input type="text" name="lastName" placeholder="Last Name" />
+        </div>
+        <div class="form_groups">
+          <label for="rm"><b>*</b>RM</label>
+          <input type="text" name="rm" placeholder="RM" />
+        </div>
+        <div class="form_groups">
+          <label for="srm">Secondary RM</label>
+          <input type="text" name="srm" placeholder="Secondary RM" />
+        </div>
+        <div class="form_groups">
+          <label for="designation"><b>*</b>Designation</label>
+          <input type="text" name="designation" placeholder="Designation" />
+        </div>
+        <div class="form_groups">
+          <label for="">Secretory Name</label>
+          <input type="text" name="" placeholder="Secretory Name" />
+        </div>
+        <div class="form_groups">
+          <label for="">Secretory Phone</label>
+          <input type="text" name="" placeholder="Secretory Phone" />
+        </div>
+        <div class="form_groups">
+          <label for="">Secretory Email</label>
+          <input type="text" name="" placeholder="Secretory Email" />
+        </div>
+        <div class="form_groups">
+          <label for="mobile"><b>*</b>Mobile </label>
+          <input type="number" name="mobile" placeholder="Mobile Number" />
+        </div>
+        <div class="form_groups">
+          <label for="email"><b>*</b>Email </label>
+          <input type="email" name="Email" placeholder="Email " />
+        </div>
+        <div class="form_groups">
+          <label for="aemail">Alternate Email </label>
+          <input type="email" name="aemail" placeholder="Alternate Email " />
+        </div>
+        <div class="form_groups">
+          <label for="corporateRepCategory"><b>*</b>Meal</label>
+          <select class="--sel_width" name="corporateRepCategory">
+            <option selected disabled>Select Meal</option>
+            <option>Meal One</option>
+            <option>Meal Two</option>
+            <option>Meal Threee</option>
+          </select>
+        </div>
+        <div class="form_groups">
+          <label for="officePhone">Office Phone</label>
+          <input type="number" name="officePhone" placeholder="Office Number" />
+        </div>
+        <div class="form_groups">
+          <label for="otherPhone">Other Phone</label>
+          <input type="number" name="otherPhone" placeholder="Other Number" />
+        </div>
+        <div class="form_groups">
+          <label for="homePhone">Home Phone</label>
+          <input type="text" name="homePhone" placeholder="Home Number" />
+        </div>
+      </section>
+
+      <section>
+        <!-- Right Side -->
+        <div class="form_groups">
+          <label for="address">Address</label>
+          <textarea name="address" rows="3" placeholder="Address"></textarea>
+        </div>
+        <div class="form_groups">
+          <label for="city">City</label>
+          <input type="text" name="city" placeholder="City" />
+        </div>
+        <div class="form_groups">
+          <label for="pinCode">Pin </label>
+          <input type="number" name="pinCode" placeholder="Pin " />
+        </div>
+        <div class="form_groups">
+          <label for="state">State</label>
+          <input type="text" name="state" placeholder="State" />
+        </div>
+        <div class="form_groups">
+          <label for="country">Country</label>
+          <input type="text" name="country" placeholder="Country" />
+        </div>
+        <div class="form_groups">
+          <label for="geography">Geography</label>
+          <input type="text" name="geography" placeholder="Geography" />
+        </div>
+        <div class="form_groups">
+          <label for="remark">Remark</label>
+          <textarea name="remark" rows="5" placeholder="Remark"></textarea>
+        </div>
+        <div class="form_groups">
+          <label for="sector">Sector</label>
+          <select class="--sel_width" name="sector">
+            <option value="" selected disabled>Select Sector</option>
+            <option>Select Sector 1</option>
+            <option>Select Sector 2</option>
+            <option>Select Sector 3</option>
+          </select>
+        </div>
+        <div class="form_groups">
+          <label for="sectorSoftCopy">Sector Soft Copy</label>
+          <input
+            type="text"
+            name="sectorSoftCopy"
+            placeholder="Sector Soft Copy"
+          />
+        </div>
+        <div class="form_groups">
+          <label for="sectorHardCopy">Sector Hard Copy</label>
+          <input
+            type="text"
+            name="sectorHardCopy"
+            placeholder="Sector Hard Copy"
+          />
+        </div>
+        <div class="form_groups">
+          <label for="secretoryDetails">Secretory Details</label>
+          <textarea
+            name="secretoryDetails"
+            rows="5"
+            placeholder="Secretory Details"
+          ></textarea>
+        </div>
+        <div class="form_groups">
+          <label>Contact Status</label>
+          <div class="radios_group">
+            <input type="radio" name="contactStatus" value="active" />
+            <label for="active">Active</label>
+            <input type="radio" name="contactStatus" value="inactive" checked />
+            <label for="inactive">Inactive</label>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <div class="susan_btn">
+      <button type="submit" class="comm_btn">Save</button>
+      <button type="button" class="comm_btn --bg_white">Cancel</button>
+    </div>
+  </form>
 </div>
 
 <script>
-    $(document).ready(function () {
-        $("#cr-form").validate({
-            rules: {
-                corporateGroup: {
-                    required: true
-                },
-                firstName: {
-                    required: true,
-                    minlength: 2
-                },
-                lastName: {
-                    required: true,
-                    minlength: 2
-                },
-                corporateRepCategory: {
-                    required: true
-                },
-                // designation: {
-                //     required: true
-                // },
-                mobilePhone: {
-                    required: true,
-                    digits: true
-                },
-                // officePhone: {
-                //     digits: true
-                // },
-                // otherPhone: {
-                //     digits: true
-                // },
-                // homePhone: {
-                //     digits: true
-                // },
-                businessEmail: {
-                    required: true,
-                    email: true
-                },
-                // alternateEmail: {
-                //     email: true
-                // },
-                fundRepCategory: {
-                    required: true
-                },
-                // mobile: {
-                //     required: true,
-                //     digits: true
-                // },
-                // shortname: {
-                //     required: true
-                // },
-                // mealPreference: {
-                //     required: true
-                // },
-                // address: {
-                //     required: true
-                // },
-                // state: {
-                //     required: true
-                // },
-                // city: {
-                //     required: true
-                // },
-                // pinCode: {
-                //     required: true,
-                //     digits: true
-                // },
-                // country: {
-                //     required: true
-                // },
-                // geography: {
-                //     required: true
-                // },
-                // contactStatus: {
-                //     required: true
-                // },
-                // primaryAccountManager: {
-                //     required: true
-                // },
-                // secondaryAccountManager: {
-                //     required: true
-                // },
-                // sector: {
-                //     required: true
-                // },
-                // sectorName: {
-                //     required: true
-                // },
-                // sectorEmail: {
-                //     email: true
-                // },
-                // secretoryDetails: {
-                //     required: true
-                // },
-                // sectorSoftCopy: {
-                //     required: true
-                // },
-                // sectorHardCopy: {
-                //     required: true
-                // },
-                // remark: {
-                //     required: true
-                // }
-            },
-            messages: {
-                corporateGroup: {
-                    required: " select  corporate group"
-                },
-                firstName: {
-                    required: " enter your first name",
-                    minlength: "First name must be at least 2 characters long"
-                },
-                lastName: {
-                    required: " enter your last name",
-                    minlength: "Last name must be at least 2 characters long"
-                },
-                corporateRepCategory: {
-                    required: " select  corporate representative category"
-                },
-                // designation: {
-                //     required: " enter your designation"
-                // },
-                mobilePhone: {
-                    required: " enter your mobile phone number",
-                    digits: " enter only digits"
-                },
-                officePhone: {
-                    digits: " enter only digits"
-                },
-                // otherPhone: {
-                //     digits: " enter only digits"
-                // },
-                // homePhone: {
-                //     digits: " enter only digits"
-                // },
-                businessEmail: {
-                    required: " enter your business email",
-                    email: " enter  valid email address"
-                },
-                // alternateEmail: {
-                //     email: " enter a valid email address"
-                // },
-                fundRepCategory: {
-                    required: " select a fund representative category"
-                },
-                // mobile: {
-                //     required: " enter your mobile number",
-                //     digits: " enter only digits"
-                // },
-                // shortname: {
-                //     required: " enter a shortname"
-                // },
-                // mealPreference: {
-                //     required: " select a meal preference"
-                // },
-                // address: {
-                //     required: " enter your address"
-                // },
-                // state: {
-                //     required: " enter your state"
-                // },
-                // city: {
-                //     required: " enter your city"
-                // },
-                // pinCode: {
-                //     required: " enter your pin code",
-                //     digits: " enter only digits"
-                // },
-                // country: {
-                //     required: " enter your country"
-                // },
-                // geography: {
-                //     required: " enter your geography"
-                // },
-                // contactStatus: {
-                //     required: " select a contact status"
-                // },
-                // primaryAccountManager: {
-                //     required: " enter the primary account manager"
-                // },
-                // secondaryAccountManager: {
-                //     required: " enter the secondary account manager"
-                // },
-                // sector: {
-                //     required: " select a sector"
-                // },
-                // sectorName: {
-                //     required: " enter the sector name"
-                // },
-                // sectorEmail: {
-                //     email: " enter a valid email address"
-                // },
-                // secretoryDetails: {
-                //     required: " enter secretory details"
-                // },
-                // sectorSoftCopy: {
-                //     required: " enter sector soft copy details"
-                // },
-                // sectorHardCopy: {
-                //     required: " enter sector hard copy details"
-                // },
-                // remark: {
-                //     required: " enter remarks"
-                // }
-            },
-            submitHandler: function (form) {
-                alert("Form submitted successfully!");
-                form.submit();
-            }
-        });
+  $(document).ready(function () {
+    $("#cr-form").validate({
+      rules: {
+        corporateGroup: {
+          required: true,
+        },
+        firstName: {
+          required: true,
+          minlength: 2,
+        },
+        lastName: {
+          required: true,
+          minlength: 2,
+        },
+        corporateRepCategory: {
+          required: true,
+        },
+        // designation: {
+        //     required: true
+        // },
+        mobilePhone: {
+          required: true,
+          digits: true,
+        },
+        // officePhone: {
+        //     digits: true
+        // },
+        // otherPhone: {
+        //     digits: true
+        // },
+        // homePhone: {
+        //     digits: true
+        // },
+        businessEmail: {
+          required: true,
+          email: true,
+        },
+        // alternateEmail: {
+        //     email: true
+        // },
+        fundRepCategory: {
+          required: true,
+        },
+        // mobile: {
+        //     required: true,
+        //     digits: true
+        // },
+        // shortname: {
+        //     required: true
+        // },
+        // mealPreference: {
+        //     required: true
+        // },
+        // address: {
+        //     required: true
+        // },
+        // state: {
+        //     required: true
+        // },
+        // city: {
+        //     required: true
+        // },
+        // pinCode: {
+        //     required: true,
+        //     digits: true
+        // },
+        // country: {
+        //     required: true
+        // },
+        // geography: {
+        //     required: true
+        // },
+        // contactStatus: {
+        //     required: true
+        // },
+        // primaryAccountManager: {
+        //     required: true
+        // },
+        // secondaryAccountManager: {
+        //     required: true
+        // },
+        // sector: {
+        //     required: true
+        // },
+        // sectorName: {
+        //     required: true
+        // },
+        // sectorEmail: {
+        //     email: true
+        // },
+        // secretoryDetails: {
+        //     required: true
+        // },
+        // sectorSoftCopy: {
+        //     required: true
+        // },
+        // sectorHardCopy: {
+        //     required: true
+        // },
+        // remark: {
+        //     required: true
+        // }
+      },
+      messages: {
+        corporateGroup: {
+          required: " select  corporate group",
+        },
+        firstName: {
+          required: " enter your first name",
+          minlength: "First name must be at least 2 characters long",
+        },
+        lastName: {
+          required: " enter your last name",
+          minlength: "Last name must be at least 2 characters long",
+        },
+        corporateRepCategory: {
+          required: " select  corporate representative category",
+        },
+        // designation: {
+        //     required: " enter your designation"
+        // },
+        mobilePhone: {
+          required: " enter your mobile phone number",
+          digits: " enter only digits",
+        },
+        officePhone: {
+          digits: " enter only digits",
+        },
+        // otherPhone: {
+        //     digits: " enter only digits"
+        // },
+        // homePhone: {
+        //     digits: " enter only digits"
+        // },
+        businessEmail: {
+          required: " enter your business email",
+          email: " enter  valid email address",
+        },
+        // alternateEmail: {
+        //     email: " enter a valid email address"
+        // },
+        fundRepCategory: {
+          required: " select a fund representative category",
+        },
+        // mobile: {
+        //     required: " enter your mobile number",
+        //     digits: " enter only digits"
+        // },
+        // shortname: {
+        //     required: " enter a shortname"
+        // },
+        // mealPreference: {
+        //     required: " select a meal preference"
+        // },
+        // address: {
+        //     required: " enter your address"
+        // },
+        // state: {
+        //     required: " enter your state"
+        // },
+        // city: {
+        //     required: " enter your city"
+        // },
+        // pinCode: {
+        //     required: " enter your pin code",
+        //     digits: " enter only digits"
+        // },
+        // country: {
+        //     required: " enter your country"
+        // },
+        // geography: {
+        //     required: " enter your geography"
+        // },
+        // contactStatus: {
+        //     required: " select a contact status"
+        // },
+        // primaryAccountManager: {
+        //     required: " enter the primary account manager"
+        // },
+        // secondaryAccountManager: {
+        //     required: " enter the secondary account manager"
+        // },
+        // sector: {
+        //     required: " select a sector"
+        // },
+        // sectorName: {
+        //     required: " enter the sector name"
+        // },
+        // sectorEmail: {
+        //     email: " enter a valid email address"
+        // },
+        // secretoryDetails: {
+        //     required: " enter secretory details"
+        // },
+        // sectorSoftCopy: {
+        //     required: " enter sector soft copy details"
+        // },
+        // sectorHardCopy: {
+        //     required: " enter sector hard copy details"
+        // },
+        // remark: {
+        //     required: " enter remarks"
+        // }
+      },
+      submitHandler: function (form) {
+        alert("Form submitted successfully!");
+        form.submit();
+      },
     });
+  });
 </script>
