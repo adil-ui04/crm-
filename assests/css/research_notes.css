@@ -249,10 +249,11 @@ ul.tlist_main2 {
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 8px;
-  border: 1px solid lightgray;
+  border: 0px solid lightgray;
   padding: 20px;
   transition: all 0.3s ease-in;
   background-color: var(--white);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 .card_element .style_text {
   font-size: 12px;

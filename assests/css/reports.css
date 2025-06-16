@@ -11,6 +11,7 @@
 }
 
 .report_tab {
+<<<<<<< HEAD
 	background-color: var(--white);
 	border: 1px solid #e0e0e0;
 	border-radius: 8px;
@@ -19,6 +20,16 @@
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 	height: fit-content;
 	width: 50%;
+=======
+  background-color: var(--white);
+  border: 0px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  height: fit-content;
+  width: 50%;
+>>>>>>> 29429bbc58b23bc2a61e5f4cb3dd335056d12b0a
 }
 .report_main_content {
 	width: 40px;
