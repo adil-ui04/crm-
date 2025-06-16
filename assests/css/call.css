@@ -44,7 +44,7 @@
 .clist_main {
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid var(--gray);
+  border: 1px solid #e7e4e4;
 }
 .clist_main p {
   font-size: 14px;
@@ -107,7 +107,7 @@
   flex-wrap: wrap;
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid var(--gray);
+  border: 1px solid #e7e4e4;
   margin: 20px 0px;
 }
 .call_main img {

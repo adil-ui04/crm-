@@ -52,7 +52,7 @@
 .tlist_main {
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid var(--gray);
+  border: 1px solid #e7e4e4;
   background-color: var(--white);
 }
 .tlist_main p {
@@ -97,7 +97,7 @@
   align-items: center;
   margin-top: 20px;
   flex-wrap: wrap;
-  border: 1px solid var(--gray);
+  border: 1px solid #e7e4e4;
   border-radius: 4px;
   padding: 20px;
 }
