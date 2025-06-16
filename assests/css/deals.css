@@ -160,7 +160,7 @@ span.deal_sg {
 .--btn_white {
 	background-color: var(--white);
 	color: var(--black);
-	border: 1px solid var(--lightgreen);
+	border: 1px solid var(--gray);
 	border-radius: 4px;
 }
 .unitab-content {
