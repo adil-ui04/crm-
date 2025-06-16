@@ -109,8 +109,9 @@
 .deal-info {
 	display: flex;
 	gap: 50px;
-	margin-bottom: 16px;
+	margin-bottom: 10px;
 	flex-wrap: wrap;
+	margin-top: 20px;
 }
 
 .deal-info-item {

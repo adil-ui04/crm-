@@ -135,8 +135,11 @@ div.dt-container .dt-search input {
 .table_responsive {
 	overflow: auto;
 	/* height: calc(90vh - 50px); */
-	height: 500px;
-	/* margin-top: 20px; */
+	height: 600px;
+	padding-right: 20px;
+}
+.dashtble_main .table_responsive {
+	padding-right: 0;
 }
 .dt-info {
 	font-weight: 400 !important;
@@ -412,7 +415,9 @@ select {
 	gap: 10px;
 	margin-bottom: 20px;
 }
-
+.form_groups textarea {
+	border: 1px solid #e0e0e0;
+}
 .unitab {
 	display: flex;
 	align-items: center;
@@ -445,10 +450,18 @@ select {
 	font-size: 12px;
 	color: #333;
 }
-
+.--fund_master_table {
+	height: unset;
+}
+.fixed_head {
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	background-color: var(--white);
+}
 .unitab-content {
 	display: none;
-	background-color: white;
+	/* background-color: white; */
 	border-radius: 10px;
 	padding-bottom: 20px;
 }
