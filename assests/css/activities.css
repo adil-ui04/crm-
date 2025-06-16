@@ -12,7 +12,7 @@
 /* added by abhishek on 16 june 2025 */
 .activities_tab {
 	background-color: var(--white);
-	border: 0px solid #e7e4e4;
+	border: 1px solid #e7e4e4;
 	border-radius: 8px;
 	padding: 20px;
 	margin-bottom: 20px;
@@ -95,7 +95,7 @@
 /* added by abhishek on 16 june 2025 */
 .summary_container {
 	background-color: var(--white);
-	border: 0px solid #e7e4e4;
+	border: 1px solid #e7e4e4;
 	border-radius: 8px;
 	padding: 20px;
 	margin-bottom: 20px;
