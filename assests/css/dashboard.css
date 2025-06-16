@@ -140,12 +140,13 @@
 	background-color: var(--white);
 	margin-top: 20px;
 }
-
+/* added by abhishek 16 june 2025 */
 .tble_flex {
 	display: flex;
-	gap: 10px;
+	gap: 12px;
 	flex-wrap: wrap;
 }
+
 
 .--tble_badge {
 	width: 36px;
@@ -290,6 +291,12 @@ button.comm_btn.--view_btn {
 }
 .inactive > span {
 	background-color: #f3f4f6;
+}
+/* added by abhishek on 16 june 2025 */
+@media only screen and (max-width: 1366px) {
+	.recent_activity {
+		gap: 20px;
+	}
 }
 
 @media only screen and (max-width: 1024px) {

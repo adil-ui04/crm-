@@ -266,6 +266,12 @@ a.chref {
 .card.card-stat h5 {
   font-size: 16px;
 }
+/* added by abhishek on 16 june 2025 */
+@media only screen and (max-width: 1366px) {
+  .clients_main {
+    grid-template-columns: 1fr 1fr;
+  }
+} 
 /* added by pradeep on 12 June 2025 */
 /* .cd_holding_text {
 } */
