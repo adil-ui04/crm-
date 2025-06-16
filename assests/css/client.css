@@ -118,7 +118,7 @@
   gap: 20px;
 }
 .left-cd {
-  border: 1px solid var(--gray);
+  border: 1px solid var(--gray) !important;
   padding: 10px 5px;
   font-size: 13px;
   border-radius: 8px;
@@ -267,8 +267,8 @@ a.chref {
   font-size: 16px;
 }
 /* added by pradeep on 12 June 2025 */
-.cd_holding_text {
-}
+/* .cd_holding_text {
+} */
 /* added by pradeep on 12 June 2025 */
 @media only screen and (max-width: 1024px) {
   .clients_main {

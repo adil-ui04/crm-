@@ -358,7 +358,7 @@ select {
   color: var(--white);
   border: none;
   padding: 7px 16px;
-  border-radius: 8px;
+  border-radius: 4px;
   font-size: 14px;
   font-weight: 500;
   cursor: pointer;
@@ -572,6 +572,19 @@ select {
   color: var(--black);
   border: 1px solid var(--gray);
 }
+
+/* adil16jun25 */
+.no-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0px;
+}
+.no-data img {
+  width: 80px;
+  filter: grayscale(3);
+}
+/*  */
 
 @media only screen and (max-width: 1024px) {
   .content-container {
