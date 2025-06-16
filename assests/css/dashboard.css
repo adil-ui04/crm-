@@ -147,7 +147,6 @@
 	flex-wrap: wrap;
 }
 
-
 .--tble_badge {
 	width: 36px;
 	height: 36px;
@@ -221,6 +220,7 @@ button.comm_btn.--view_btn {
 .dt-layout-row.dt-layout-table {
 	margin-top: 20px !important;
 }
+
 .box_shadow {
 	padding: 20px;
 	border-radius: 8px;

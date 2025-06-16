@@ -7,7 +7,7 @@
 .--btn_white {
 	background-color: var(--white);
 	color: var(--black);
-	border: 1px solid var(--lightgreen);
+	border: 1px solid var(--gray);
 	border-radius: 6px;
 }
 .unitab-container.--pro_container {

@@ -109,8 +109,9 @@
 .deal-info {
 	display: flex;
 	gap: 50px;
-	margin-bottom: 16px;
+	margin-bottom: 10px;
 	flex-wrap: wrap;
+	margin-top: 20px;
 }
 
 .deal-info-item {
@@ -159,7 +160,7 @@ span.deal_sg {
 .--btn_white {
 	background-color: var(--white);
 	color: var(--black);
-	border: 1px solid var(--lightgreen);
+	border: 1px solid var(--gray);
 	border-radius: 4px;
 }
 .unitab-content {
