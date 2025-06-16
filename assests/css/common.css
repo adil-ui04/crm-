@@ -95,10 +95,12 @@ iframe {
 }
 
 /* universal table start*/
-.--universal_table {
-  padding-right: 20px;
+/* .--universal_table {
+	padding-right: 20px;
+} */
+div.dt-container .dt-search input {
+  padding: 6px 12px !important;
 }
-
 .--universal_table table {
   width: 100%;
   border-collapse: collapse;
@@ -240,7 +242,9 @@ table.dataTable.dtr-inline.collapsed > tbody > tr > td.child {
   background: #f6faff;
 }
 div.dt-container .dt-paging .dt-paging-button.current {
-  background-color: #d2e7ff !important;
+  background: #ffffff !important;
+  color: white !important;
+  box-shadow: none;
 }
 div#DataTables_Table_0_info {
   white-space: break-spaces;
@@ -319,9 +323,9 @@ div#DataTables_Table_0_info {
 }
 
 .common_title select {
-  padding: 7px 16px;
+  padding: 5px 10px 8px 10px;
   border: 1px solid var(--gray);
-  border-radius: 8px;
+  border-radius: 6px;
   font-size: 14px;
   outline: none;
   background-color: var(--white);
@@ -509,6 +513,7 @@ select {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  border: 1px solid var(--accent);
 }
 
 /* modal css */

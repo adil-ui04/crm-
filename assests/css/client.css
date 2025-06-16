@@ -14,6 +14,10 @@
   height: 39px;
   border-radius: 4px;
 }
+.table_responsive.--universal_table {
+  padding-right: 18px;
+  height: 100%;
+}
 .--client_search {
   width: 100%;
   max-width: 500px;
@@ -237,10 +241,6 @@ a.chref {
   top: 0;
   z-index: 1;
   background-color: var(--white);
-}
-
-.dataTable tbody tr:hover {
-  background-color: var(--gray) !important;
 }
 
 .cd-img img {
