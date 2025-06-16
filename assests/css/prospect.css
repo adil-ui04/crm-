@@ -43,6 +43,7 @@
 	margin: 10px 0px;
 	font-size: 12px;
 	color: var(--smtext);
+	margin-bottom: 18px;
 }
 
 .pro_p p {
@@ -71,7 +72,7 @@
 	padding: 2px 12px;
 }
 .--pnt {
-	margin-top: 10px;
+	margin-top: 16px;
 	color: black;
 	background-color: var(--white);
 	width: fit-content;
@@ -90,15 +91,17 @@
 	gap: 20px;
 	flex-wrap: wrap;
 }
-.prospect_header h3,
-.prospect_header strong {
-	font-size: 16px;
+.prospect_header h3 {
 	font-size: 16px;
 }
-
+.prospect_container strong {
+	font-size: 14px;
+	color: gray;
+}
 .prospect_header p {
 	margin-bottom: unset;
 	font-size: 14px;
+	color: gray;
 }
 
 .--pro_badge {

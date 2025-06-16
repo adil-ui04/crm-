@@ -418,7 +418,7 @@ select {
 	align-items: center;
 	gap: 5px;
 	padding: 6px 12px;
-	border-radius: 10px;
+	border-radius: 4px;
 	background-color: transparent;
 	color: #444;
 	cursor: pointer;
@@ -450,6 +450,7 @@ select {
 	display: none;
 	background-color: white;
 	border-radius: 10px;
+	padding-bottom: 20px;
 }
 
 .unitab-content.active {
@@ -476,8 +477,10 @@ select {
 	border-radius: 4px;
 }
 .pagination li.active {
-	background-color: #555555;
-	color: white;
+	background-color: transparent;
+	color: black;
+	border: 1px solid gray;
+	padding: 4px 14px;
 }
 /* pagination css end*/
 /* extra from btn to navigate */
