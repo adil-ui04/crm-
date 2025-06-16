@@ -1,0 +1,212 @@
+<link rel="stylesheet" href="assests/css/meeting.css">
+
+<section class="common_title">
+    <div>
+        <h3>Meetings</h3>
+        <p>Schedule and manage client meetings</p>
+    </div>
+    <div>
+        <button class="comm_btn" data-bs-toggle="modal" data-bs-target="#scheduleMeetingModal">
+            <img src="assests/images/icons/sch.svg" alt="">
+            Schedule Meeting</button>
+    </div>
+</section>
+
+<div class="meet_grid">
+    <section class="meet_tab">
+        <h4>Task Management</h4>
+        <p>Manage and complete your tasks</p>
+        <!-- nav tab -->
+        <div class="meet_flex">
+            <div>
+                <div class="unitab-container">
+                    <div class="unitab active" data-tab="upcoming"> Upcoming<span class="badge">5</span></div>
+                    <div class="unitab" data-tab="today"> Today <span class="badge">1</span></div>
+                    <div class="unitab" data-tab="week">This Week <span class="badge">1</span></div>
+                    <div class="unitab" data-tab="month"> This Month <span class="badge">1</span></div>
+                    <div class="unitab" data-tab="past">Past<span class="badge">1</span></div>
+                    <div class="unitab" data-tab="all"> All <span class="badge">1</span></div>
+                </div>
+            </div>
+            <select name="">
+                <option value="" selected disabled> All Clients</option>
+                <option value="">Example 1</option>
+                <option value="">Example 2</option>
+            </select>
+        </div>
+        <!-- nav content -->
+        <div class="unitab-content active" id="upcoming">
+            <div class="meet_sch">
+                <p>No meetings found</p>
+                <p class="meet_btn">
+                    <img src="assests/images/icons/calendar.svg" alt="" width="15">
+                    Schedule your first Meeting
+                </p>
+            </div>
+        </div>
+        <div class="unitab-content" id="today">
+            today
+        </div>
+        <div class="unitab-content" id="week">
+            week
+        </div>
+        <div class="unitab-content" id="month">
+            month
+        </div>
+        <div class="unitab-content" id="past">
+            month
+        </div>
+        <div class="unitab-content" id="all">
+            all
+        </div>
+
+    </section>
+
+    <section class="meet_mains">
+        <div class="meet_summary">
+            <h3>Meeting Stats</h3>
+            <div class="tlist_btm">
+                <ul class="tlist_main">
+                    <p>Today's Meetings</p>
+                    <li class="tlist_item">
+
+                        <span class="tlist_name">0</span>
+                        <span class="mbadge" style="background-color: #dbeafe;"><img
+                                src="assests/images/icons/calendar.svg" alt="calendar" width="15px"></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="tlist_btm">
+                <ul class="tlist_main">
+                    <p>This Week</p>
+                    <li class="tlist_item">
+
+                        <span class="tlist_name">1</span>
+                        <span class="mbadge" style="background-color: #dcfce7;"><img src="assests/images/icons/week.svg"
+                                alt="wrong" width="15px"></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="meet_summary ">
+            <h3>Client Engagement</h3>
+            <p class="smtext">Meeting frequency by client</p>
+
+            <div class="section">
+                <ul class="tlist_main">
+                    <li class="tlist_item2">
+                        <span class="mbadge">FI</span>
+                        <span class="tlist2">Fidelity <br> Investments
+                        </span>
+                        <span class="m_badge">1 meeting</span>
+                    </li>
+                    <li class="tlist_item2">
+                        <span class="mbadge">BH</span>
+                        <span class="tlist2">Blackrock <br> Holdings</span>
+                        <span class="m_badge">0 meetings</span>
+                    </li>
+                    <li class="tlist_item2">
+                        <span class="mbadge">VG</span>
+                        <span class="tlist2">Vanguard Global
+                        </span>
+                        <span class="m_badge">0 meetings</span>
+                    </li>
+                    <li class="tlist_item2">
+                        <span class="mbadge">SM</span>
+                        <span class="tlist2">State Street <br> Management
+                        </span>
+                        <span class="m_badge">0 meetings</span>
+                    </li>
+                    <li class="tlist_item2">
+                        <span class="mbadge">JP</span>
+                        <span class="tlist2"> JP Morgan <br> Capital
+                        </span>
+                        <span class="m_badge">0 meetings</span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+</div>
+<!-- Modal -->
+<div class="modal fade" id="scheduleMeetingModal" tabindex="-1" aria-labelledby="scheduleMeetingModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg ">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="scheduleMeetingModalLabel">Schedule a Meeting</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+                <p class="m-text">Add a new meeting to your calendar</p>
+                <form>
+                    <!-- Meeting Title -->
+                    <div class="mb-3">
+                        <label for="meetingTitle" class="form-label">Meeting Title</label>
+                        <input type="text" class="form-control" placeholder="Enter meeting title">
+                    </div>
+
+                    <!-- Client -->
+                    <div class="mb-3">
+                        <label for="meetingClient" class="form-label">Client</label>
+                        <select class="form-select">
+                            <option selected disabled>Select Client</option>
+                            <option>Blackrock Holdings</option>
+                            <option>JP Morgan</option>
+                            <option>Fidelity</option>
+                        </select>
+                    </div>
+
+                    <!-- Date and Time -->
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="meetingDate" class="form-label">Date</label>
+                            <input type="date" class="form-control" value="2025-04-11">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="meetingTime" class="form-label">Time</label>
+                            <input type="time" class="form-control" value="12:52">
+                        </div>
+                    </div>
+
+                    <!-- Meeting Type and Location -->
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="meetingType" class="form-label">Meeting Type</label>
+                            <select class="form-select">
+                                <option selected disabled> Select Meeting Type</option>
+                                <option> In Person</option>
+                                <option> Virtual</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="meetingLocation" class="form-label">Location</label>
+                            <input type="text" class="form-control" placeholder="Office or Zoom URL">
+                        </div>
+                    </div>
+
+                    <!-- Notes -->
+                    <div class="mb-3">
+                        <label for="meetingNotes" class="form-label">Notes</label>
+                        <textarea class="form-control" rows="3" placeholder="Add any relevant notes"></textarea>
+                    </div>
+                </form>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="comm_btn --btn-wg" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="comm_btn">Schedule Meeting</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+
+</html>

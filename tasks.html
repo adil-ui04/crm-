@@ -1,0 +1,306 @@
+<link rel="stylesheet" href="assests/css/tasks.css">
+
+<section class="common_title">
+    <div>
+        <h3>Tasks</h3>
+        <p class="smtext">Manage your tasks and to-dos</p>
+    </div>
+    <div>
+        <button class="comm_btn" data-bs-toggle="modal" data-bs-target="#newTaskModal">
+            <img src="assests/images/icons/plus.svg" alt="add">
+            New Task
+        </button>
+    </div>
+</section>
+<!-- title end -->
+
+<!-- grid main start -->
+<div class="tasks_grid">
+    <section class="tasks_tab">
+        <h4>Task Management</h4>
+        <p class="para_text">Manage and complete your tasks</p>
+
+        <div class="tasktab_wrp">
+            <!-- tab  -->
+            <div class="unitab-container">
+                <div class="unitab active" data-tab="all">
+                    All <span class="badge">5</span>
+                </div>
+                <div class="unitab" data-tab="pendings"> Pending
+                    <span class="badge">1</span>
+                </div>
+                <div class="unitab" data-tab="completed">Completed
+                    <span class="badge">1</span>
+                </div>
+            </div>
+            <div class="task_select">
+                <select name="" style="margin-right: 20px;">
+                    <option selected disabled>All Priorities</option>
+                    <option>Example 1</option>
+                    <option>Example 2</option>
+                    <option>Example 3</option>
+                </select>
+                <select name="">
+                    <option selected disabled>All Client</option>
+                    <option>Example 1</option>
+                    <option>Example 2</option>
+                    <option>Example 3</option>
+                </select>
+            </div>
+        </div>
+        <!-- tab content -->
+        <div class="unitab-content active" id="all">
+            <section>
+                <div class="task_main">
+                    <div>
+                        <input type="checkbox" name="" class="task-checkbox">
+                    </div>
+                    <div>
+                        <p class="lg_task">Update State Street proposal with new terms</p>
+                        <p class="md_task"> <span class="tbadge">SM</span> State Street Management </p>
+                        <p class="md_task">Before team meeting</p>
+                        <span class="task_date">
+                            <img src="assests/images/icons/calendar2.svg" alt="date" width="15px">
+                            <p class="sm_task"> Due: Mar 20, 2023</p>
+                        </span>
+
+                    </div>
+                    <div class="icon_main">
+                        <p class="tasks_icon" style="background-color: #fef3c7;color: #92400E;">Medium</p>
+                        <p class="tasks_icon" style="background-color: #fee2e2;color: #92400E;">Overdue</p>
+                    </div>
+
+                </div>
+                <!--  -->
+                <div class="task_main">
+                    <div>
+                        <input type="checkbox" name="" class="task-checkbox">
+                    </div>
+                    <div>
+                        <p class="lg_task">Schedule quarterly review with Fidelity</p>
+                        <p class="md_task"><span class="tbadge">FI</span>Fidelity Investments</p>
+                        <p class="md_task">Include research team</p>
+                        <span class="task_date">
+                            <img src="assests/images/icons/calendar2.svg" alt="date">
+                            <p class="sm_task">Due: Mar 22, 2023</p>
+                        </span>
+                    </div>
+                    <div class="icon_main">
+                        <p class="tasks_icon" style="background-color: #d1fae5; color: #065f46;">Low</p>
+                        <p class="tasks_icon" style="background-color: #fee2e2;color: #92400E;">Overdue</p>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="task_main">
+                    <div>
+                        <input type="checkbox" name="" id="">
+                    </div>
+                    <div>
+                        <p class="lg_task">Follow up on JP Morgan research request</p>
+                        <p class="md_task"><span class="tbadge">JC </span>JP Morgan Capital</p>
+                        <p class="md_task">Check with analyst team first</p>
+                        <span class="task_date">
+                            <img src="assests/images/icons/calendar2.svg" alt="date">
+                            <p class="sm_task">Due: Mar 24, 2023</p>
+                        </span>
+                    </div>
+                    <div class="icon_main">
+                        <p class="tasks_icon" style="background-color: #fef3c7;color: #92400E;">Medium</p>
+                        <p class="tasks_icon" style="background-color: #fee2e2;color: #92400E;">Overdue</p>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="task_main">
+                    <div>
+                        <input type="checkbox" name="" id="">
+                    </div>
+                    <div>
+                        <p class="lg_task">Prepare Q2 performance report for Blackrock</p>
+                        <p class="md_task"><span class="tbadge">BH</span>Blackrock Holdings</p>
+                        <span class="task_date">
+                            <img src="assests/images/icons/calendar2.svg" alt="date">
+                            <p class="sm_task">Due: Apr 1, 2025</p>
+                        </span>
+                    </div>
+                    <div class="icon_main">
+                        <p class="tasks_icon" style="background-color: #fecaca; color: #7f1d1d;">High</p>
+                        <p class="tasks_icon" style="background-color: #fef9c3;color: #92400E;">Due Today</p>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="task_main">
+                    <div>
+                        <input type="checkbox" name="" id="">
+                    </div>
+                    <div>
+                        <p class="lg_task">Call Vanguard about new equity offering</p>
+                        <p class="md_task"><span class="tbadge">VG</span>Vanguard Global</p>
+                        <p class="md_task">Scheduled for 11:30 AM</p>
+                        <span class="task_date">
+                            <img src="assests/images/icons/calendar2.svg" alt="date">
+                            <p class="sm_task">Due: Apr 2, 2025</p>
+                        </span>
+                    </div>
+                    <div class="icon_main">
+                        <p class="tasks_icon" style="background-color: #fef3c7;color: #92400E;">Medium</p>
+                        <p class="tasks_icon" style="background-color: #ede9fe;color: #5b21b6;">Due Soon</p>
+                    </div>
+                </div>
+                <!--  -->
+            </section>
+            <hr>
+            <p class="text_para">Showing 5 of 5 tasks</p>
+
+        </div>
+        <div class="unitab-content" id="pendings">
+            <h2>pendings</h2>
+            <p>This is the content for calls leads.</p>
+        </div>
+        <div class="unitab-content" id="completed">
+            <h2>completed</h2>
+            <p>This is the content for emails leads.</p>
+        </div>
+    </section>
+
+    <section class="task2_sec">
+        <div class="task_summary">
+            <h3>Task Summary</h3>
+            <div class="tlist_btm">
+                <ul class="tlist_main">
+                    <p>Due Today</p>
+                    <li class="tlist_item">
+
+                        <span class="tlist_name">1</span>
+                        <span class="tbadge" style="background-color: #fef3c7;"><img
+                                src="assests/images/icons/check.svg" alt="check" width="15px"></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="tlist_btm">
+                <ul class="tlist_main">
+                    <p>overdue</p>
+                    <li class="tlist_item">
+
+                        <span class="tlist_name">1</span>
+                        <span class="tbadge" style="background-color: #fee2e2;"><img
+                                src="assests/images/icons/wrong.svg" alt="wrong" width="15px"></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="tlist_btm">
+                <ul class="tlist_main">
+                    <p>Completion Rate</p>
+                    <li class="tlist_item">
+
+                        <span class="tlist_name">0%</span>
+                        <span class="tbadge" style="background-color: #dcfce7;"><img
+                                src="assests/images/icons/check.svg" alt="check" width="15px"></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="task_summary ">
+            <h3>Priority Breakdown</h3>
+
+            <div class="section">
+                <ul class="tlist_main2">
+                    <li class="tlist_item2">
+                        <img src="assests/images/icons/warning.svg" alt="high"> <span class="tlist2">High
+                            Priority</span>
+                        <span class="tbadge lightpink">1</span>
+                    </li>
+                    <li class="tlist_item2">
+                        <img src="assests/images/icons/dots.svg" alt="Medium">
+                        <span class="tlist2">Medium Priority</span>
+                        <span class="tbadge yellow">3</span>
+                    </li>
+                    <li class="tlist_item2">
+                        <img src="assests/images/icons/check.svg" alt="low">
+                        <span class="tlist2">Low Priority</span>
+                        <span class="tbadge lightgreen">1</span>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+</div>
+<!-- grid main end-->
+<!-- Modal -->
+<div class="modal fade" id="newTaskModal" tabindex="-1" aria-labelledby="newTaskModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="newTaskModalLabel">Create New Task</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+                <p class="m-text">Enter the client details below to add them to your CRM</p>
+                <form>
+                    <!-- Task Title -->
+                    <div class="mb-3">
+                        <label for="taskTitle" class="form-label">Task Title</label>
+                        <input type="text" class="form-control" id="taskTitle" placeholder="Enter task title">
+                    </div>
+
+                    <!-- Client Dropdown -->
+                    <div class="mb-3">
+                        <label for="taskClient" class="form-label">Client</label>
+                        <select class="form-select" id="taskClient">
+                            <option selected>No Client</option>
+                            <option>Blackrock Holdings</option>
+                            <option>JP Morgan</option>
+                            <option>Fidelity</option>
+                        </select>
+                    </div>
+
+                    <!-- Due Date -->
+                    <div class="mb-3">
+                        <label for="dueDate" class="form-label">Due Date</label>
+                        <input type="date" class="form-control" id="dueDate" value="2025-04-11">
+                    </div>
+
+                    <!-- Priority Dropdown -->
+                    <div class="mb-3">
+                        <label for="taskPriority" class="form-label">Priority</label>
+                        <select class="form-select" id="taskPriority">
+                            <option value="" selected disabled>Select Priority</option>
+                            <option value="high">High</option>
+                            <option value="medium"> Medium</option>
+                            <option value="low">Low</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="comm_btn --btn-wg" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="comm_btn">Create Task</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    $(document).ready(function () {
+        $('.task-checkbox').change(function () {
+            const taskMain = $(this).closest('.task_main');
+            const taskTitle = taskMain.find('.lg_task');
+
+            if ($(this).is(':checked')) {
+                taskTitle.css('text-decoration', 'line-through');
+                alert('Task completed!');
+            } else {
+                taskTitle.css('text-decoration', 'none');
+            }
+        });
+    });
+
+</script>
+</body>
+
+</html>

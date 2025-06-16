@@ -1,0 +1,314 @@
+<link rel="stylesheet" href="assests/css/research_notes.css">
+<section class="common_title">
+    <div>
+        <h3>Research Notes</h3>
+        <p class="smtext">Browse and manage research insights
+        </p>
+    </div>
+    <div class="flex_container">
+        <button class="comm_btn" data-bs-toggle="modal" data-bs-target="#createNoteModal">
+            <img src="assests/images/icons/plus.svg" alt="Add">
+            New Research Note
+        </button>
+    </div>
+</section>
+<!--  -->
+<div class="tasks_grid2">
+    <section class="tasks_tab">
+        <div class="search_report">
+            <img src="assests/images/icons/gray_search.svg" alt="filter_icon">
+            <input type="search" id="searchsInput" placeholder="Search research notes...">
+
+        </div>
+        <p id="noResults" class="nosearch">No data
+            found.</p>
+
+        <div class="tasktab_wrp">
+            <div class="unitab-container">
+                <div class="unitab active" data-tab="all">
+                    All
+                </div>
+                <div class="unitab" data-tab="bookmarked">
+                    <img src="assests/images/icons/bookmarked.svg" alt="bookmarked">
+                    Bookmarked
+                </div>
+                <div class="unitab" data-tab="Market_Analysis">Market Analysis
+                </div>
+                <div class="unitab" data-tab="ESG">ESG
+                </div>
+                <div class="unitab" data-tab="Sector_Analysis">Sector Analysis
+                </div>
+                <div class="unitab" data-tab="FixedIncome">Fixed Income
+                </div>
+                <div class="unitab" data-tab="IndustryAnalysis">Industry Analysis
+                </div>
+            </div>
+        </div>
+
+        <div class="unitab-content active" id="all">
+            <!--  -->
+            <div class="card_container" id="research-note">
+                <!--1  -->
+                <div class="card_element">
+                    <div class="flex_item">
+                        <p class="style_text">Market Analysis</p>
+                        <img src="assests/images/icons/bookmarked_icon.svg" alt="bookmarked_icon">
+                    </div>
+                    <h3 class="global_head">Global Market Outlook Q3 2023</h3>
+                    <p>Comprehensive analysis of global equity markets with focus on technology and healthcare
+                        sectors. Includes</p>
+                    <div class="container_block">
+                        <p>Global Markets</p>
+                        <p>Equities</p>
+                        <p>Inflation</p>
+                    </div>
+                    <div class="timeline_container">
+                        <div class="timeline_element">
+                            <img src="assests/images/icons/calendar.svg" alt="calendar">
+                            <p>Aug 15, 2023</p>
+                        </div>
+                        <div class="timeline_element timeline_element2">
+                            <img src="assests/images/icons/building.svg" alt="building">
+                            <p>Blackrock Holdings</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 1 -->
+
+                <!-- 2 -->
+                <div class="card_element">
+                    <div class="flex_item">
+                        <p class="style_text">ESG</p>
+                        <!-- <img src="assests/images/icons/bookmarked_icon.svg" alt="bookmarked_icon"> -->
+                    </div>
+                    <h3 class="global_head">ESG Investment Opportunities in Clean Energy</h3>
+                    <p>Deep dive into renewable energy investments, focusing on solar, wind, and hydrogen. Includes
+                        regulatory</p>
+                    <div class="container_block">
+                        <p>Clean Energy
+                        </p>
+                        <p>Sustainability</p>
+                        <p>Regulatory</p>
+                    </div>
+                    <div class="timeline_container">
+                        <div class="timeline_element">
+                            <img src="assests/images/icons/calendar.svg" alt="calendar">
+                            <p>Aug 10, 2023</p>
+                        </div>
+                        <div class="timeline_element timeline_element2">
+                            <img src="assests/images/icons/building.svg" alt="building">
+                            <p>Vanguard Global</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2 -->
+
+                <!-- 3 -->
+                <div class="card_element">
+                    <div class="flex_item">
+                        <p class="style_text">Sector Analysis</p>
+                        <img src="assests/images/icons/bookmarked_icon.svg" alt="bookmarked_icon">
+                    </div>
+                    <h3 class="global_head">Tech Sector Valuation Analysis</h3>
+                    <p>Detailed valuation metrics for major tech companies with comparison to historical averages.
+                        Includes DCF models</p>
+                    <div class="container_block">
+                        <p>Technology
+                        </p>
+                        <p>Valuations</p>
+                        <p>Growth Stocks</p>
+                    </div>
+                    <div class="timeline_container">
+                        <div class="timeline_element">
+                            <img src="assests/images/icons/calendar.svg" alt="calendar">
+                            <p>Aug 5, 2023</p>
+                        </div>
+                        <div class="timeline_element timeline_element2">
+                            <img src="assests/images/icons/building.svg" alt="building">
+                            <p>State Street Management</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3 -->
+
+                <!-- 4 -->
+
+                <div class="card_element">
+                    <div class="flex_item">
+                        <p class="style_text">Fixed Income</p>
+                        <!-- <img src="assests/images/icons/bookmarked_icon.svg" alt="bookmarked_icon"> -->
+                    </div>
+                    <h3 class="global_head">Fixed Income Strategy in Rising Rate Environment</h3>
+                    <p>Analysis of fixed income portfolio positioning in light of changing monetary policy. Focus on
+                        duration</p>
+                    <div class="container_block">
+                        <p>Bonds</p>
+                        <p>Interest Rates
+                        </p>
+                        <p>Credit</p>
+                    </div>
+                    <div class="timeline_container">
+                        <div class="timeline_element">
+                            <img src="assests/images/icons/calendar.svg" alt="calendar">
+                            <p>Jul 28, 2023</p>
+                        </div>
+                        <div class="timeline_element timeline_element2">
+                            <img src="assests/images/icons/building.svg" alt="building">
+                            <p>JP Morgan Capital</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4 -->
+
+
+                <!-- 5 -->
+
+                <div class="card_element">
+                    <div class="flex_item">
+                        <p class="style_text">Industry Analysis</p>
+                        <!-- <img src="assests/images/icons/bookmarked_icon.svg" alt="bookmarked_icon"> -->
+                    </div>
+                    <h3 class="global_head">Supply Chain Disruption Impact on Manufacturing</h3>
+                    <p>Assessment of ongoing supply chain challenges and their impact on manufacturing sectors.
+                        Includes estimation of</p>
+                    <div class="container_block">
+                        <p>Supply Chain</p>
+                        <p>Manufacturing</p>
+                        <p>Global Trade</p>
+                    </div>
+                    <div class="timeline_container">
+                        <div class="timeline_element">
+                            <img src="assests/images/icons/calendar.svg" alt="calendar">
+                            <p>Jul 22, 2023</p>
+                        </div>
+                        <div class="timeline_element timeline_element2">
+                            <img src="assests/images/icons/building.svg" alt="building">
+                            <p>Vanguard Global</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5 -->
+
+            </div>
+            <!--  -->
+        </div>
+        <div class="unitab-content" id="bookmarked">
+            <h2>pendings</h2>
+            <p>This is the content for calls leads.</p>
+        </div>
+        <div class="unitab-content" id="Market_Analysis">
+            <h2>Market_Analysis</h2>
+            <p>This is the content for emails leads.</p>
+        </div>
+        <div class="unitab-content" id="ESG">
+            <h2>ESG</h2>
+            <p>This is the content for emails leads.</p>
+        </div>
+        <div class="unitab-content" id="Sector_Analysis">
+            <h2>Sector_Analysis</h2>
+            <p>This is the content for emails leads.</p>
+        </div>
+        <div class="unitab-content" id="FixedIncome">
+            <h2>FixedIncome</h2>
+            <p>This is the content for emails leads.</p>
+        </div>
+        <div class="unitab-content" id="IndustryAnalysis">
+            <h2>IndustryAnalysis</h2>
+            <p>This is the content for emails leads.</p>
+        </div>
+    </section>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="createNoteModal" tabindex="-1" aria-labelledby="createNoteModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="createNoteModalLabel">Create Research Note</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+                <p class="m-text">Enter the details for your new research note</p>
+                <form>
+                    <!-- Title -->
+                    <div class="mb-3">
+                        <label for="noteTitle" class="form-label">Title *</label>
+                        <input type="text" class="form-control" id="noteTitle" placeholder="Enter research note title"
+                            required>
+                    </div>
+
+                    <!-- Summary -->
+                    <div class="mb-3">
+                        <label for="noteSummary" class="form-label">Summary *</label>
+                        <textarea class="form-control" id="noteSummary" rows="4"
+                            placeholder="Enter a summary of your research" required></textarea>
+                    </div>
+
+                    <!-- Client & Category -->
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="noteClient" class="form-label">Client</label>
+                            <select class="form-select" id="noteClient">
+                                <option selected>Select a client</option>
+                                <option>Goldman Sachs</option>
+                                <option>Morgan Stanley</option>
+                                <option>HSBC</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="noteCategory" class="form-label">Category *</label>
+                            <select class="form-select" id="noteCategory" required>
+                                <option selected>Select a category</option>
+                                <option>Equity Research</option>
+                                <option>Macro Outlook</option>
+                                <option>Company Update</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Tags -->
+                    <div class="mb-3">
+                        <label for="noteTags" class="form-label">Tags</label>
+                        <input type="text" class="form-control" id="noteTags"
+                            placeholder="Enter tags separated by commas">
+                    </div>
+                </form>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="comm_btn --btn-wg" data-bs-dismiss="modal">Cancel</button>
+                <button type="submit" class="comm_btn">Create Research Note</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    $(document).ready(function () {
+        $('#searchsInput').on('input', function () {
+            var value = $(this).val().toLowerCase();
+            var hasVisible = false;
+
+            $('#research-note .card_element').each(function () {
+                if ($(this).text().toLowerCase().indexOf(value) > -1) {
+                    $(this).show();
+                    hasVisible = true;
+                } else {
+                    $(this).hide();
+                }
+            });
+
+            if (!hasVisible) {
+                $('#noResults').show();
+            } else {
+                $('#noResults').hide();
+            }
+        });
+    });
+</script>
+</body>
+
+</html>

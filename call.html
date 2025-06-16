@@ -1,0 +1,247 @@
+<link rel="stylesheet" href="assests/css/call.css">
+
+<section class="common_title">
+    <div>
+        <h3>Calls</h3>
+        <p class="smtext">Log and track client calls</p>
+    </div>
+    <button class="comm_btn" data-bs-toggle="modal" data-bs-target="#logCallModal">
+        <img src="assests/images/icons/call-logs.svg" alt="">
+        Log Call</button>
+    </div>
+</section>
+
+
+<div class="call_grid">
+    <section class="call_tab">
+        <h4>Call Log</h4>
+        <p>Track and manage your client calls</p>
+        <!-- nav tab -->
+        <div class="call_flex">
+            <div>
+                <div class="unitab-container">
+                    <div class="unitab active" data-tab="all"> All<span class="badge">1</span></div>
+                    <div class="unitab" data-tab="today"> Today <span class="badge">1</span></div>
+                    <div class="unitab" data-tab="week">This Week </div>
+                    <div class="unitab" data-tab="month"> Last 7 Days </div>
+                </div>
+            </div>
+            <div>
+                <select name="">
+                    <option value="" selected disabled> All Calls</option>
+                    <option value="">Example 1</option>
+                    <option value="">Example 2</option>
+                </select>
+                <select name="">
+                    <option value="" selected disabled> All Clients</option>
+                    <option value="">Example 1</option>
+                    <option value="">Example 2</option>
+                </select>
+            </div>
+        </div>
+        <!-- nav content -->
+        <div class="unitab-content active" id="all">
+            <section>
+                <div class="call_main">
+                    <img src="assests/images/icons/call2.svg" alt="call" width="15px">
+                    <div>
+                        <p class="ctext_ml">Call with Blackrock Holdings<br>
+                            <span class="call_with"> with</span> <strong class="call_strng"> Blackrock
+                                Holdings</strong>
+                        </p>
+                        <div class="call_span">
+                            <img src="assests/images/icons/calendar2.svg" alt="">
+                            <span>Apr 1, 2025</span>
+                            <img src="assests/images/icons/clock3.svg" alt="">
+                            <span>9:28 AM</span>
+                        </div>
+                        <p class="text-call --ctxt">Discussed Q3 investment strategy and research needs</p>
+
+                    </div>
+                    <div class="call_icons">
+                        <img src="assests/images/icons/outgoing.svg" alt="call">
+                        <span>outgoing</span>
+                    </div>
+                </div>
+                <hr>
+                <p>Showing 1 of 1 calls</p>
+            </section>
+        </div>
+        <div class="unitab-content" id="today">
+            today
+        </div>
+        <div class="unitab-content" id="week">
+            week
+        </div>
+        <div class="unitab-content" id="month">
+            month
+        </div>
+
+    </section>
+
+    <section class="call_sec">
+        <div class="call_summary">
+            <h3>Call Metrics</h3>
+            <div class="clist_btm">
+                <ul class="clist_main">
+                    <p>Today's Calls</p>
+                    <li class="clist_item">
+
+                        <span class="clist_name">1</span>
+                        <span class="cbadge" style="background-color: #dbeafe;"><img
+                                src="assests/images/icons/call-ring.svg" alt="ringing" class="ring"></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="clist_btm">
+                <ul class="clist_main">
+                    <p>Outgoing Calls</p>
+                    <li class="clist_item">
+
+                        <span class="clist_name">1</span>
+                        <span class="cbadge" style="background-color: #dcfce7;"><img
+                                src="assests/images/icons/outgoing.svg" alt="outgoing" width="15px"></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="clist_btm">
+                <ul class="clist_main">
+                    <p>Incoming Calls</p>
+                    <li class="clist_item">
+
+                        <span class="clist_name">0</span>
+                        <span class="cbadge" style="background-color: #fef3c7;"><img
+                                src="assests/images/icons/incoming.svg" alt="incoming" width="15px"></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="call_summary ">
+            <h3>Top Contacts</h3>
+            <p class="smtext">Clients with most calls</p>
+
+            <div class="section">
+                <ul class="clist_main">
+                    <li class="clist_item2">
+                        <span class="cbadge"></span>
+                        <span class="clist2">Blackrock Holdings
+                        </span>
+                        <span class="c_badge">1 call</span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+</div>
+<!-- Modal -->
+<div class="modal fade" id="logCallModal" tabindex="-1" aria-labelledby="logCallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="logCallModalLabel">Log a Call</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+                <p class="m-text">Record details of a client call</p>
+                <form>
+                    <!-- Call Subject -->
+                    <div class="mb-3">
+                        <label for="callSubject" class="form-label">Call Subject</label>
+                        <input type="text" class="form-control" id="callSubject" placeholder="Enter call subject">
+                    </div>
+
+                    <!-- Client -->
+                    <div class="mb-3">
+                        <label for="callClient" class="form-label">Client</label>
+                        <select class="form-select">
+                            <option selected disabled>Select Client</option>
+                            <option>Blackrock Holdings</option>
+                            <option>JP Morgan</option>
+                            <option>Fidelity</option>
+                        </select>
+                    </div>
+
+                    <!-- Date & Time -->
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="callDate" class="form-label">Date</label>
+                            <input type="date" class="form-control" value="2025-04-11">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="callTime" class="form-label">Time</label>
+                            <input type="time" class="form-control" value="12:55">
+                        </div>
+                    </div>
+
+                    <!-- Call Direction & Duration -->
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="callDirection" class="form-label">Call Direction</label>
+                            <select class="form-select" id="callDirection">
+                                <option selected disabled>Select Direction</option>
+                                <option>Outgoing</option>
+                                <option>Incoming</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="callDuration" class="form-label">Duration</label>
+                            <select class="form-select" id="callDuration">
+                                <option selected disabled>Select Duration</option>
+                                <option>5 minutes</option>
+                                <option>10 minutes</option>
+                                <option>15 minutes</option>
+                                <option>20 minutes</option>
+                                <option>30 minutes</option>
+                                <option>45 minutes</option>
+                                <option>1 hour</option>
+                                <option value="custom duration " id="cst-time">Custom duration</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Custom Duration -->
+                    <div class="mb-3 cst_time">
+                        <label for="customDuration" class="form-label">Custom Duration (minutes)</label>
+                        <input type="number" class="form-control" placeholder="Enter duration in minutes">
+                    </div>
+
+                    <!-- Notes -->
+                    <div class="mb-3">
+                        <label for="callNotes" class="form-label">Call Notes</label>
+                        <textarea class="form-control" id="callNotes" rows="3"
+                            placeholder="Enter call summary and key points"></textarea>
+                    </div>
+                </form>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="comm_btn --btn-wg" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="comm_btn">Log Call</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+
+    $(document).ready(function () {
+        $('#callDuration').change(function () {
+            if ($(this).val().trim() === 'custom duration') {
+                $('.cst_time').show();
+            } else {
+                $('.cst_time').hide();
+            }
+        });
+    });
+
+</script>
+
+</body>
+
+</html>

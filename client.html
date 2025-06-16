@@ -1,0 +1,423 @@
+<link rel="stylesheet" href="assests/css/client.css">
+
+<section class="common_title">
+    <div>
+        <h3>Clients</h3>
+        <p class="smtext">View and manage your institutional clients</p>
+    </div>
+    <div class="add1-btn">
+        <a class="comm_btn --bg_white ajax-link" data-page="add-fund.html">
+            Add Fund Master
+        </a>
+        <a class="comm_btn --bg_white ajax-link" data-page="fund-manager.html">
+            Add Fund Rep Master
+        </a>
+        <!-- <button class="comm_btn" data-bs-toggle="modal" data-bs-target="#addClientModal">
+            <img src="assests/images/icons/plus.svg" alt="add">
+            Add Client
+        </button> -->
+    </div>
+</section>
+<!-- title end -->
+
+<!-- search start -->
+<section class="clnt_search">
+    <div class="search-container">
+        <input type="search" id="clientInput" class="search-input --client_search " placeholder="Search clients..."
+            autocomplete="off">
+        <img src="assests/images/icons/searchs.svg" alt="Search Icon" width="20px" class="search-icon --srch_icon">
+        <p id="noResults" class="nosearch">No data
+            found.</p>
+    </div>
+    <p href="" class="ajax-link comm_btn" data-page="client-table.html">Table View</p>
+    <div class="client_no">
+        <p> Showing 5 of 5 clients</p>
+    </div>
+</section>
+
+
+<!-- search end -->
+
+<!-- client card start -->
+<section class="clients_main" id="client-note">
+
+    <div class="clients_card">
+        <div class="clients_header">
+            <div class="clients_badge">BH</div>
+            <div>
+                <h3>Blackrock Holdings</h3>
+                <p>Asset Management</p>
+            </div>
+            <button class="comm_btn --client_btn" data-bs-toggle="modal" data-bs-target="#clientDetailsModal">View
+                Details</button>
+        </div>
+        <!--  -->
+        <div class="clients_details">
+            <div><img src="assests/images/icons/company.svg" alt=" company"><span>Corporate</span> </div>
+            <div><img src="assests/images/icons/location.svg" alt="location"> <span>New York, NY</span></div>
+            <div><img src="assests/images/icons/email.svg" alt="email"><span>contact@example.com</span></div>
+            <div><img src="assests/images/icons/call.svg" alt="call"><span>+1 (555) 123-4567</span> </div>
+        </div>
+        <hr>
+        <div class="clients_stats">
+            <div>
+                <span>AUM</span>
+                <p> 8500000000</p>
+            </div>
+            <div>
+                <span>YTD Revenue</span>
+                <p>₹1.2M</p>
+            </div>
+            <div>
+                <span>Open Deals</span>
+                <p>3</p>
+            </div>
+
+        </div>
+
+    </div>
+    <!--  -->
+    <div class="clients_card">
+        <div class="clients_header">
+            <div class="clients_badge">VG</div>
+            <div>
+                <h3> Vanguard Global</h3>
+                <p>Investment Management</p>
+            </div>
+            <button class="comm_btn --client_btn">View Details</button>
+        </div>
+        <!--  -->
+        <div class="clients_details">
+            <div><img src="assests/images/icons/company.svg" alt=" company"><span>Corporate</span> </div>
+            <div><img src="assests/images/icons/location.svg" alt="location"> <span>New York, NY</span></div>
+            <div><img src="assests/images/icons/email.svg" alt="email"><span>contact@example.com</span></div>
+            <div><img src="assests/images/icons/call.svg" alt="call"><span>+1 (555) 123-4567</span> </div>
+        </div>
+        <hr>
+        <div class="clients_stats">
+            <div>
+                <span>AUM</span>
+                <p> 8500000000</p>
+            </div>
+            <div>
+                <span>YTD Revenue</span>
+                <p>₹1.2M</p>
+            </div>
+            <div>
+                <span>Open Deals</span>
+                <p>3</p>
+            </div>
+
+        </div>
+
+    </div>
+    <!--  -->
+    <div class="clients_card">
+        <div class="clients_header">
+            <div class="clients_badge">SSM</div>
+            <div>
+                <h3>State Street
+                    <br> Management
+                </h3>
+                <p>Pension Fund</p>
+            </div>
+            <button class="comm_btn --client_btn">View Details</button>
+        </div>
+        <!--  -->
+        <div class="clients_details">
+            <div><img src="assests/images/icons/company.svg" alt=" company"><span>Corporate</span> </div>
+            <div><img src="assests/images/icons/location.svg" alt="location"> <span>New York, NY</span></div>
+            <div><img src="assests/images/icons/email.svg" alt="email"><span>contact@example.com</span></div>
+            <div><img src="assests/images/icons/call.svg" alt="call"><span>+1 (555) 123-4567</span> </div>
+        </div>
+        <hr>
+        <div class="clients_stats">
+            <div>
+                <span>AUM</span>
+                <p> 8500000000</p>
+            </div>
+            <div>
+                <span>YTD Revenue</span>
+                <p>₹1.2M</p>
+            </div>
+            <div>
+                <span>Open Deals</span>
+                <p>3</p>
+            </div>
+
+        </div>
+
+    </div>
+    <!--  -->
+    <div class="clients_card">
+        <div class="clients_header">
+            <div class="clients_badge">JMC</div>
+            <div>
+                <h3>JP Morgan Capital</h3>
+                <p>Investment Bank</p>
+            </div>
+            <button class="comm_btn --client_btn">View Details</button>
+        </div>
+        <!--  -->
+        <div class="clients_details">
+            <div><img src="assests/images/icons/company.svg" alt=" company"><span>Corporate</span> </div>
+            <div><img src="assests/images/icons/location.svg" alt="location"> <span>New York, NY</span></div>
+            <div><img src="assests/images/icons/email.svg" alt="email"><span>contact@example.com</span></div>
+            <div><img src="assests/images/icons/call.svg" alt="call"><span>+1 (555) 123-4567</span> </div>
+        </div>
+        <hr>
+        <div class="clients_stats">
+            <div>
+                <span>AUM</span>
+                <p> 8500000000</p>
+            </div>
+            <div>
+                <span>YTD Revenue</span>
+                <p>₹1.2M</p>
+            </div>
+            <div>
+                <span>Open Deals</span>
+                <p>3</p>
+            </div>
+
+        </div>
+
+    </div>
+    <!--  -->
+    <div class="clients_card">
+        <div class="clients_header">
+            <div class="clients_badge">FI</div>
+            <div>
+                <h3>Fidelity Investments</h3>
+                <p>Asset Management</p>
+            </div>
+            <button class="comm_btn --client_btn">View Details</button>
+        </div>
+        <!--  -->
+        <div class="clients_details">
+            <div><img src="assests/images/icons/company.svg" alt=" company"><span>Corporate</span> </div>
+            <div><img src="assests/images/icons/location.svg" alt="location"> <span>New York, NY</span></div>
+            <div><img src="assests/images/icons/email.svg" alt="email"><span>contact@example.com</span></div>
+            <div><img src="assests/images/icons/call.svg" alt="call"><span>+1 (555) 123-4567</span> </div>
+        </div>
+        <hr>
+        <div class="clients_stats">
+            <div>
+                <span>AUM</span>
+                <p> 8500000000</p>
+            </div>
+            <div>
+                <span>YTD Revenue</span>
+                <p>₹1.2M</p>
+            </div>
+            <div>
+                <span>Open Deals</span>
+                <p>3</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+<div class="pagination-wrapper">
+    <ul class="pagination"></ul>
+</div>
+<!-- client card end -->
+
+<!-- Add client Modal -->
+<div class="modal fade" id="addClientModal" tabindex="-1" aria-labelledby="addClientModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content ">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addClientModalLabel">Add New Client</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+                <p class="m-text">Enter the client details below to add them to your CRM</p>
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Client Name *</label>
+                        <input type="text" class="form-control" placeholder="Enter client name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Industry *</label>
+                        <input type="text" class="form-control" placeholder="e.g. Asset Management, Banking" required>
+                    </div>
+                    <div class="row g-3 mb-3">
+                        <div class="col-md-6">
+                            <label class="form-label">Size</label>
+                            <input type="text" class="form-control" placeholder="e.g. Enterprise, Mid-market">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Location</label>
+                            <input type="text" class="form-control" placeholder="City, Country">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Website</label>
+                        <input type="url" class="form-control" placeholder="https://example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Primary Contact</label>
+                        <input type="text" class="form-control" placeholder="Contact name">
+                    </div>
+                    <div class="row g-3 mb-3">
+                        <div class="col-md-6">
+                            <label class="form-label">Contact Email</label>
+                            <input type="email" class="form-control" placeholder="email@example.com">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Contact Phone</label>
+                            <input type="tel" class="form-control" placeholder="+1 (555) 123-4567">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Notes</label>
+                        <textarea class="form-control" rows="3"
+                            placeholder="Additional notes about this client"></textarea>
+                    </div>
+                </form>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="comm_btn --btn-wg" data-bs-dismiss="modal">Cancel</button>
+                <button type="submit" class="comm_btn">Create Client</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Client Details Modal -->
+<div class="modal fade" id="clientDetailsModal" tabindex="-1" aria-labelledby="clientDetailsModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content client-details">
+            <div class="modal-header">
+                <h5 class="modal-title" id="clientDetailsModalLabel">Client Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+                <section class="viewdetail-modal">
+                    <div class="left-cd">
+                        <div class="cd-enterprise">
+                            <p class="clients_badge">BH</p>
+                            <p class="">Blackrock Holdings</p>
+                            <p class="smtext" style="font-size: 12px;">Asset Management</p>
+                            <p class="cd_icons ">Enterprise</p>
+                        </div>
+
+                        <div class="cd-address cd-img">
+                            <div> <img src="assests/images/icons/company.svg" alt=" company">Corporate</div>
+                            <div> <img src="assests/images/icons/location.svg" alt=" address"> New York, NY</div>
+                            <div> <img src="assests/images/icons/user.svg" alt=" user">John Smith</div>
+                            <div> <img src="assests/images/icons/email.svg" alt=" email"> contact@example.com</div>
+                            <div> <img src="assests/images/icons/call.svg" alt=" call"> +1 (555) 123-4567</div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="right-cd">
+                        <!-- one sec start -->
+                        <div class="cd-count">
+                            <div class="card_cd  ">
+                                <small>AUM</small>
+                                <h5>850000000</h5>
+                            </div>
+                            <div class="card_cd  ">
+                                <small>YTD Revenue</small>
+                                <h5>₹1.2M</h5>
+                            </div>
+                            <div class="card_cd  ">
+                                <small>Open Deals</small>
+                                <h5>3</h5>
+                            </div>
+                        </div>
+                        <!--one sec end  -->
+                        <!-- 2 sec start -->
+                        <div class="cd-recent">
+                            <h5>Recent Activity</h5>
+                            <div>
+                                <p> Call with Jane Cooper —</p> <small>Yesterday, 2:30 PM</small>
+                            </div>
+                            <div>
+                                <p>Presented Q2 Results —</p> <small>Aug 15, 10:00 AM</small>
+                            </div>
+                            <div>
+                                <p>Sent research report —</p> <small>Aug 10, 9:15 AM</small>
+                            </div>
+                            <button class="comm_btn --cd_btn">View All Activity</button>
+                        </div>
+                        <!-- 2 sec end -->
+                        <!-- 3 sec start -->
+                        <div class="cd-notes">
+                            <h5>Notes</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, mollitia. Fuga earum sed
+                                exercitationem accusamus rerum quae culpa ullam? Assumenda nobis dolor tempora eligendi
+                                nemo doloribus reprehenderit debitis impedit temporibus.</p>
+                        </div>
+                        <!-- 4 sec start -->
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    $(document).ready(function () {
+        $('#clientInput').on('input', function () {
+            var value = $(this).val().toLowerCase();
+            var hasVisible = false;
+
+            $('#client-note .clients_card').each(function () {
+                if ($(this).text().toLowerCase().indexOf(value) > -1) {
+                    $(this).show();
+                    hasVisible = true;
+                } else {
+                    $(this).hide();
+                }
+            });
+
+            if (!hasVisible) {
+                $('#noResults').show();
+            } else {
+                $('#noResults').hide();
+            }
+        });
+    });
+    // pagination
+    $(document).ready(function () {
+        var cardsPerPage = 6;
+        var $cards = $('.clients_card');
+        var totalCards = $cards.length;
+        var totalPages = Math.ceil(totalCards / cardsPerPage);
+
+        function showPage(page) {
+            $cards.hide();
+            var start = (page - 1) * cardsPerPage;
+            var end = start + cardsPerPage;
+            $cards.slice(start, end).show();
+
+            $('.pagination li').removeClass('active');
+            $('.pagination li[data-page="' + page + '"]').addClass('active');
+        }
+
+        // Create pagination buttons
+        for (var i = 1; i <= totalPages; i++) {
+            $('.pagination').append('<li data-page="' + i + '">' + i + '</li>');
+        }
+
+        // Style active page
+        $('.pagination').on('click', 'li', function () {
+            var page = $(this).data('page');
+            showPage(page);
+        });
+
+        // Initial display
+        showPage(1);
+    });
+</script>
+</body>
+
+</html>

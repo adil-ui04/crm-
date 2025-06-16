@@ -1,0 +1,435 @@
+<link rel="stylesheet" href="assests/css/dashboard.css">
+<style>
+
+</style>
+
+
+<section class="common_title">
+    <div>
+        <h3>SUSAN Dashboard</h3>
+        <p class="smtext">Institutional Equity Sales Overview</p>
+    </div>
+    <div class="flex_container">
+        <select class="dash_mr">
+            <option selected="" disabled="">Last 30 days</option>
+            <option>Last quarter</option>
+            <option>Year to date</option>
+            <option>Custom range</option>
+        </select>
+        <button class="comm_btn">New Activity</button>
+    </div>
+</section>
+<!--title end  -->
+
+<!-- dashboard card start -->
+<section class="dashboard_card">
+    <div class="dashcard_main">
+        <div class="dashcard_title">
+            <h3>Commission Revenue </h3><span class="changess">+12.5%</span>
+        </div>
+        <h1>₹1,256,890</h1>
+        <p class="ssmtext">vs ₹1,117,680 last period</p>
+        <div class="progress-bar --dash_progress">
+            <div class="progress " style="width: 0;"></div>
+        </div>
+    </div>
+    <div class="dashcard_main">
+        <div class="dashcard_title">
+            <h3>Client Meetings </h3>
+            <span class="changess">+8.2%</span>
+        </div>
+        <h1>134</h1>
+        <p class="ssmtext">vs 124 last period</p>
+        <div class="progress-bar --dash_progress">
+            <div class="progress " style="width: 50%;"></div>
+        </div>
+    </div>
+    <!--  -->
+    <div class="dashcard_main">
+        <div class="dashcard_title">
+            <h3>Deal Pipeline </h3>
+            <span class="changess">-3.1%</span>
+        </div>
+        <h1>₹2,784,500</h1>
+        <p class="ssmtext">vs ₹2,871,500 last period</p>
+        <div class="progress-bar --dash_progress">
+            <div class="progress " style="width: 0;"></div>
+        </div>
+    </div>
+    <!--  -->
+    <div class="dashcard_main">
+        <div class="dashcard_title">
+            <h3>Research Engagement </h3>
+            <span class="changess">+15.8%</span>
+        </div>
+        <h1>87.3%</h1>
+        <p class="ssmtext">vs 75.4% last period</p>
+        <div class="progress-bar --dash_progress">
+            <div class="progress " style="width: 0;"></div>
+        </div>
+    </div>
+
+</section>
+<!-- dashbaord card end -->
+
+<section class="dashMain">
+
+    <div class="left-side">
+
+        <div>
+            <section class="total_main ">
+                <h2>Sales Pipeline</h2>
+                <div class="total_subtitle">
+                    <p>Deal Stage</p>
+                    <span>Value (₹)</span>
+                </div>
+                <div class="m_bottom">
+                    <div class="total_stage">
+                        <div>
+                            <input type="radio" name="" id=""> <span>Prospecting</span>
+                        </div>
+                        <span>₹875,500</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 40%;"></div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="m_bottom">
+                    <div class="total_stage">
+                        <div>
+                            <input type="radio" name="" id=""> <span>Qualification</span>
+                        </div>
+                        <span>₹1,142,000</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="m_bottom">
+                    <div class="total_stage">
+                        <div>
+                            <input type="radio" name="" id=""> <span>Proposal</span>
+                        </div>
+                        <span>₹540,000</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 60%;"></div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="m_bottom">
+                    <div class="total_stage">
+                        <div>
+                            <input type="radio" name="" id=""> <span>Negotiation</span>
+                        </div>
+                        <span>₹227,000</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 10%;"></div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="m_bottom">
+                    <div class="total_stage">
+                        <div>
+                            <input type="radio" name="" id=""> <span>Closing</span>
+                        </div>
+                        <span>₹320,500</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 20%;"></div>
+                    </div>
+                </div>
+                <hr>
+                <div class="total_value">
+                    <span>Total Pipeline Value</span>
+                    <span style="font-size: 18px;color: black;">₹3,105,000</span>
+                </div>
+            </section>
+        </div>
+        <!-- dash table start -->
+        <section class="dashtble_main">
+            <div class="common_title">
+                <div>
+                    <h3 style="font-size: 18px;">Clients & Prospects</h3>
+                </div>
+                <div>
+                    <select>
+                        <option selected="" disabled="">All Client</option>
+                        <option>Key Accounts</option>
+                        <option>Prospects</option>
+                        <option>Recently Active</option>
+                    </select>
+                </div>
+            </div>
+            <div class="table_responsive --universal_table">
+                <table class="DataTable display" style="width: 100%;">
+                    <thead class="fixed_head">
+                        <tr>
+                            <th data-priority="1">Client</th>
+                            <th data-priority="2">AUM</th>
+                            <th>Revenue YTD</th>
+                            <th>Status</th>
+                            <th>Last Contact</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="tble_flex">
+                                    <div class="clients_badge --tble_badge" style="background-color: black;"></div>
+                                    <div>
+                                        <strong> Blackrock Holdings</strong><br><span class="smtext">Asset
+                                            Management</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><span>₹8.5B</span></td>
+                            <td><span>₹245,890</span></td>
+                            <td><span>Active</span></td>
+                            <td><span class="smtext">Today</span></td>
+                            <td><a href="#">View</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="tble_flex">
+                                    <div class="clients_badge --tble_badge" style="background-color: #f5f5f4"></div>
+                                    <div>
+                                        <strong> Vanguard Global</strong><br><span class="smtext">Investment
+                                            Management</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><span>₹5.7B</span></td>
+                            <td><span>₹178,450</span></td>
+                            <td><span>Active</span></td>
+                            <td><span class="smtext">Yesterday</span></td>
+                            <td><a href="#">View</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="tble_flex">
+                                    <div class="clients_badge --tble_badge" style="background-color: white;color:black">
+                                        SM
+                                    </div>
+                                    <div>
+                                        <strong> State Street Management</strong><br><span class="smtext">Pension
+                                            Fund</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><span>₹4.2B</span></td>
+                            <td><span>₹112,670</span></td>
+                            <td><span>3 days ago</span></td>
+                            <td><span class="smtext">Review</span></td>
+                            <td><a href="#">View</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="tble_flex">
+                                    <div class="clients_badge --tble_badge" style="background-color: #e5e5e5">JC
+                                    </div>
+                                    <div>
+                                        <strong>JP Morgan Capital</strong><br><span class="smtext">Investment
+                                            Bank</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><span>₹6.9B</span></td>
+                            <td><span>₹204,950</span></td>
+                            <td><span>2 weeks ago</span></td>
+                            <td><span class="smtext">Inactive</span></td>
+                            <td><a href="#">View</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="tble_flex">
+                                    <div class="clients_badge --tble_badge" style="background-color: black;"></div>
+                                    <div>
+                                        <strong> Fidelity Investments</strong><br><span class="smtext">Asset
+                                            Management</span>
+                                    </div>
+                            </td>
+                            </td>
+                            <td><span>₹7.1B</span></td>
+                            <td><span>₹198,320</span></td>
+                            <td><span>4 days ago</span></td>
+                            <td><span class="smtext">Active</span></td>
+                            <td><a href="#">View</a></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </div> <!-- left side end -->
+
+    <div class="right-side">
+        <!-- Recent Activities start -->
+        <section class="recent_main">
+            <div class="recent_title">
+                <span>Recent Activities</span>
+                <a href="" class="ajax-link" data-page=""> <span>View All</span></a>
+            </div>
+
+            <div class="recent_activity">
+                <div class="clients_badge" style="background-color: black;"></div>
+                <div>
+                    <strong>Call with Blackrock Holdings</strong>
+                    <p>Discussed Q3 investment strategy and research needs</p>
+                    <p class="timestamp">Today, 9:28 AM</p>
+                </div>
+            </div>
+
+            <div class="recent_activity">
+                <div class="clients_badge" style="background-color: white;"></div>
+                <div>
+                    <strong>Research Report Sent to Vanguard Global</strong>
+                    <p>Q3 Tech Sector Analysis delivered via email</p>
+                    <p class="timestamp">Yesterday, 11:28 AM</p>
+                </div>
+            </div>
+
+            <div class="recent_activity">
+                <div class="clients_badge" style="background-color: #f5f5f4;"></div>
+                <div>
+                    <strong>Meeting with Fidelity Investments</strong>
+                    <p>Quarterly portfolio review and market update</p>
+                    <p class="timestamp">Mar 15, 6:30 PM</p>
+                </div>
+            </div>
+
+            <div class="recent_activity">
+                <div class="clients_badge" style="background-color: white;"></div>
+                <div>
+                    <strong>Follow-up Email to State Street Management</strong>
+                    <p>Sent information about new ESG investment opportunities</p>
+                    <p class="timestamp">Mar 14, 4:53 PM</p>
+                </div>
+            </div>
+
+            <div class="recent_activity">
+                <div class="clients_badge" style="background-color: #e5e5e5;"></div>
+                <div>
+                    <strong>Deal Update for JP Morgan Capital</strong>
+                    <p>Updated pipeline status to "Negotiation" stage</p>
+                    <p class="timestamp">Mar 12, 9:15 PM</p>
+                </div>
+            </div>
+
+        </section>
+
+
+        <div class="box_shadow2">
+            <div class="upcoming_main">
+                <div class="upcoming_header">
+                    <span>Upcoming Tasks</span>
+                    <span class="add_task">Add Task</span>
+                </div>
+                <!--  -->
+                <div class="upcoming_task">
+                    <section class="upcom_main">
+                        <input type="checkbox" name="activity" value="blackrock">
+                        <div>
+                            <strong>Update State Street proposal with new terms</strong>
+                            <p class="smtext">Before team meeting</p>
+                        </div>
+                        <div class="task-date">
+                            <p>Mar 20</p>
+                        </div>
+                    </section>
+                </div>
+                <!--  -->
+                <div class="upcoming_task">
+                    <section class="upcom_main">
+                        <input type="checkbox" name="activity" value="blackrock">
+                        <div class="up_content">
+                            <strong>Schedule quarterly review with Fidelity</strong>
+                            <p class="smtext">Include research team</p>
+                        </div>
+                        <div class="task-date">
+                            <p>Mar 22</p>
+                        </div>
+                    </section>
+                </div>
+                <!--  -->
+                <div class="upcoming_task">
+                    <section class="upcom_main">
+                        <input type="checkbox" name="activity" value="blackrock">
+                        <div class="up_content">
+                            <strong>Follow up on JP Morgan research request </strong>
+                            <p class="smtext">Check with analyst team first</p>
+                        </div>
+                        <div class="task-date">
+                            <p>Mar 24</p>
+                        </div>
+                    </section>
+                </div>
+                <!--  -->
+                <div class="upcoming_task">
+                    <section class="upcom_main">
+                        <input type="checkbox" name="activity" value="blackrock">
+                        <div class="up_content">
+                            <strong>Prepare Q2 performance report for <br> Blackrock</strong>
+
+                        </div>
+                        <div class="task-date" style="background-color: white;">
+                            <p>Today</p>
+                        </div>
+                    </section>
+                </div>
+                <!--  -->
+                <div class="upcoming_task">
+                    <section class="upcom_main">
+                        <input type="checkbox" name="activity" value="blackrock">
+                        <div class="up_content">
+                            <strong>Call Vanguard about new equity offering</strong>
+                            <p class="smtext">Scheduled for 11:30 AM</p>
+                        </div>
+                        <div class="task-date" style="background-color: white;">
+                            <p>Tomorrow</p>
+                        </div>
+                    </section>
+                </div>
+                <hr>
+                <button class="comm_btn --view_btn">View All Tasks</button>
+            </div>
+            <!-- Upcoming Tasks end -->
+
+            <!-- quick action start -->
+            <div class="box_shadow">
+                <h3>Quick Actions</h3>
+                <div class="quick_container">
+                    <div class="quick_card active">
+                        <span></span>
+                        <p>Add Client</p>
+                    </div>
+                    <div class="quick_card inactive">
+                        <span></span>
+                        <p>Schedule Meeting</p>
+                    </div>
+                    <div class="quick_card">
+                        <span></span>
+                        <p>Create Report</p>
+                    </div>
+                    <div class="quick_card">
+                        <span></span>
+                        <p>Send Update</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- right side end -->
+
+</section>
+
+
+
+
+</body>
+
+</html>

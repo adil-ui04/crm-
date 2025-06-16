@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.logo_img {
+  text-align: center;
+}
+
+.logo_img img {
+  width: 200px;
+}
+
+.logo_img p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+label {
+  font-weight: 600;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 0;
+  border: none;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.mb_form {
+  margin-bottom: 20px;
+}
+
+.form_password {
+  margin-bottom: 16px;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.input-wrapper input {
+  padding-right: 40px;
+}
+
+.field-icon {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 10;
+}
+
+.error-message {
+  color: #ff0000e3;
+  font-size: 12px;
+  margin-top: 4px;
+  display: block;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  background-color: #2e85ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #1d6fe5;
+}
+@media only screen and (max-width: 475px) {
+  .login-container {
+    margin-top: 50px;
+  }
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activation Form</title>
+    <link rel="stylesheet" href="assests/css/activation.css">
+    <script src="assests/js/cdn/jquery-3.7.1.min.js"></script>
+    <script src="assests/js/cdn/jquery.validate.1.20.min.js"></script>
+</head>
+
+<body>
+    <section class="active_container">
+        <img src="assests/images/susan.png" alt="logo">
+        <div class="act_text">
+            <p>Please Activate Your Account!</p>
+        </div>
+
+        <form id="activationForm" novalidate>
+            <div class="active_group">
+                <label class="active_label" for="activationCode">Activation Code:</label>
+                <div>
+                    <input type="text" id="activationCode" name="activationCode" />
+                    <div class="error-text"></div>
+                </div>
+            </div>
+
+            <div class="active_group">
+                <label class="active_label" for="activationType">Activation Type:</label>
+                <div>
+                    <select id="activationType" name="activationType">
+                        <option selected disabled value="">Choose Activation Code</option>
+                        <option value="Temporary">Temporary</option>
+                        <option value="Permanent">Permanent</option>
+                    </select>
+                    <div class="error-text"></div>
+                </div>
+            </div>
+
+            <div class="active_group">
+                <label class="active_label" for="fromDate">From:</label>
+                <div>
+                    <input type="date" id="fromDate" name="fromDate" />
+                    <div class="error-text"></div>
+                </div>
+            </div>
+
+            <div class="active_group">
+                <label class="active_label" for="toDate">To:</label>
+                <div>
+                    <input type="date" id="toDate" name="toDate" />
+                    <div class="error-text"></div>
+                </div>
+            </div>
+
+            <div class="active_group">
+                <label class="active_label" for="activationKey">Activation Key:</label>
+                <div>
+                    <input type="text" id="activationKey" name="activationKey" />
+                    <div class="error-text"></div>
+                </div>
+            </div>
+
+            <button type="submit" class="activate-btn">Activate</button>
+
+            <div id="errorWrapper" style="display: none;">
+                <div class="error-text" id="lblMessage"></div>
+            </div>
+        </form>
+    </section>
+
+    <script>
+        $(document).ready(function () {
+            $("#activationForm").validate({
+                errorPlacement: function (error, element) {
+                    element.closest('div').find('.error-text').html(error);
+                },
+                errorClass: "validation-error",
+                rules: {
+                    activationCode: "required",
+                    activationType: "required",
+                    fromDate: "required",
+                    toDate: "required",
+                    activationKey: "required"
+                },
+                messages: {
+                    activationCode: "Activation Code is required.",
+                    activationType: "Activation Type is required.",
+                    fromDate: "From date is required.",
+                    toDate: "To date is required.",
+                    activationKey: "Activation Key is required."
+                },
+                submitHandler: function (form) {
+                    $("#lblMessage").text("Form submitted successfully!").css("color", "green");
+                    $("#errorWrapper").show();
+                    return false; // Prevent default submit for demo
+                },
+                invalidHandler: function () {
+                    $("#lblMessage").text("Please correct the above errors.").css("color", "red");
+                    $("#errorWrapper").show();
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

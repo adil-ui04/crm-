@@ -1,0 +1,347 @@
+<link rel="stylesheet" href="assests/css/reports.css">
+
+<section class="common_title">
+    <div>
+        <h3>Reports & Analytics</h3>
+        <p class="smtext">View and analyze business performance</p>
+    </div>
+    <div class="flex_container">
+        <button class="comm_btn comm_btn_white">
+            <img src="assests/images/icons/calendar.svg" width="15px" alt="download">
+            Last 30 Days
+        </button>
+        <button class="comm_btn">
+            <img src="assests/images/icons/download.svg" width="15px" alt="download">
+            Export
+        </button>
+    </div>
+</section>
+<!--  -->
+<div class="report_grid">
+    <section class="report_tab">
+        <h4>Available Reports</h4>
+        <p class="report_text">Analytics and insights</p>
+        <div class="report_search">
+            <img src="assests/images/icons/filter.svg" alt="filter_icon" width="12px">
+            <input type="search" id="reportInput" placeholder="Search reports...">
+        </div>
+        <p id="noResults" class="nosearch">No data
+            found.</p>
+
+        <div class="report_wrp" id="reportTrigger">
+            <div class="unitab-container">
+                <div class="unitab active" data-tab="all">
+                    All
+                </div>
+                <div class="unitab" data-tab="pendings"> Sales
+                </div>
+                <div class="unitab" data-tab="completed">Deals
+                </div>
+                <div class="unitab" data-tab="completed">Clients
+                </div>
+            </div>
+        </div>
+
+        <div class="unitab-content active" id="all">
+            <!--  -->
+            <section>
+                <div id="report-note">
+                    <div class="report_main" id="opengraph">
+                        <div>
+                            <div class="report_main_content">
+                                <img src="assests/images/icons/user_icon.svg" alt="user_icon">
+                            </div>
+                            <p class="lg_report">Sales by Client</p>
+                            <p class="md_report">Revenue breakdown by client accounts</p>
+                            <span class="report_date">
+                                <img src="assests/images/icons/calendar2.svg" alt="date" width="15px">
+                                <p class="sm_report"> Today</p>
+                            </span>
+
+                        </div>
+                        <div class="icon_report">
+                            <img src="assests/images/icons/download.svg" alt="date" width="15px" class="r_icon">
+                        </div>
+
+                    </div>
+                    <!--  -->
+                    <div class="report_main" id="open-analyz">
+                        <div>
+                            <div class="report_main_content">
+                                <img src="assests/images/icons/pipeline_analysis.svg" alt="pipeline_analysis">
+                            </div>
+                            <p class="lg_report">Pipeline Analysis</p>
+                            <p class="md_report">Deal distribution across pipeline stages</p>
+                            <span class="report_date">
+                                <img src="assests/images/icons/calendar2.svg" alt="date" width="15px">
+                                <p class="sm_report"> Yesterday</p>
+                            </span>
+
+                        </div>
+                        <div class="icon_report">
+                            <img src="assests/images/icons/download.svg" alt="date" width="15px" class="r_icon">
+                        </div>
+
+                    </div>
+                    <!--  -->
+                    <div class="report_main" id="open-revenue">
+                        <div>
+                            <div class="report_main_content">
+                                <img src="assests/images/icons/monthly_analysis.svg" alt="monthly_analysis">
+                            </div>
+                            <p class="lg_report">Monthly Revenue</p>
+                            <p class="md_report">Revenue performance vs targets</p>
+                            <span class="report_date">
+                                <img src="assests/images/icons/calendar2.svg" alt="date" width="15px">
+                                <p class="sm_report"> Aug 30, 2023</p>
+                            </span>
+
+                        </div>
+                        <div class="icon_report">
+                            <img src="assests/images/icons/download.svg" alt="date" width="15px" class="r_icon">
+                        </div>
+
+                    </div>
+                    <!--  -->
+                    <div class="report_main">
+                        <div>
+                            <div class="report_main_content">
+                                <img src="assests/images/icons/client_retention.svg" alt="client_retention">
+                            </div>
+                            <p class="lg_report">Client Retention</p>
+                            <p class="md_report">Client retention and churn analysis</p>
+                            <span class="report_date">
+                                <img src="assests/images/icons/calendar2.svg" alt="date" width="15px">
+                                <p class="sm_report"> Aug 20, 2023</p>
+                            </span>
+
+                        </div>
+                        <div class="icon_report">
+                            <img src="assests/images/icons/download.svg" alt="date" width="15px" class="r_icon">
+                        </div>
+
+                    </div>
+                    <!--  -->
+                    <div class="report_main">
+                        <div>
+                            <div class="report_main_content">
+                                <img src="assests/images/icons/revenue.svg" alt="revenue">
+                            </div>
+                            <p class="lg_report">Revenue Forecast</p>
+                            <p class="md_report">Projected revenue for next 90 days</p>
+                            <span class="report_date">
+                                <img src="assests/images/icons/calendar2.svg" alt="date" width="15px">
+                                <p class="sm_report"> Aug 15, 2023</p>
+                            </span>
+
+                        </div>
+                        <div class="icon_report">
+                            <img src="assests/images/icons/download.svg" alt="date" width="15px" class="r_icon">
+                        </div>
+
+                    </div>
+                    <!--  -->
+                    <div class="report_main">
+                        <div>
+                            <div class="report_main_content">
+                                <img src="assests/images/icons/blackdoc.svg" alt="blackdoc">
+                            </div>
+                            <p class="lg_report">Meeting Productivity</p>
+                            <p class="md_report">Analysis of meeting outcomes and conversion</p>
+                            <span class="report_date">
+                                <img src="assests/images/icons/calendar2.svg" alt="date" width="15px">
+                                <p class="sm_report"> Aug 15, 2023</p>
+                            </span>
+
+                        </div>
+                        <div class="icon_report">
+                            <img src="assests/images/icons/download.svg" alt="date" width="15px" class="r_icon">
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!--  -->
+        </div>
+        <div class="unitab-content" id="pendings">
+            <h2>pendings</h2>
+            <p>This is the content for calls leads.</p>
+        </div>
+        <div class="unitab-content" id="completed">
+            <h2>completed</h2>
+            <p>This is the content for emails leads.</p>
+        </div>
+    </section>
+
+    <section class="summary_report">
+        <div id="chartContainer" style="width:100%; height:400px; display:none;"></div>
+        <div class="document_content">
+            <img src="assests/images/icons/doc.svg" alt="doc">
+            <h3>Select a report to view</h3>
+            <p>Choose a report from the list to view detailed analytics and insights</p>
+        </div>
+    </section>
+
+</div>
+<script src="assests/js/cdn/highcharts.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#opengraph').on('click', function () {
+
+            $('.summary_report .document_content').hide();
+            // Show the chart container
+            $('#chartContainer').show();
+
+            // Initialize Highcharts
+            Highcharts.chart('chartContainer', {
+                chart: {
+                    type: 'column'
+                },
+                title: {
+                    text: 'Sales by Client'
+                },
+                xAxis: {
+                    categories: ['Client A', 'Client B', 'Client C', 'Client D']
+                },
+                yAxis: {
+                    title: {
+                        text: 'Revenue'
+                    }
+                },
+                series: [{
+                    name: 'Revenue',
+                    data: [12000, 18000, 10000, 15000]
+                }]
+            });
+        });
+    });
+    // pipe chart
+    $(document).ready(function () {
+        $('#open-analyz').on('click', function () {
+
+            // Hide the default message
+            $('.summary_report .document_content').hide();
+
+            // Show chart container
+            $('#chartContainer').show();
+
+            // Render a pie chart
+            Highcharts.chart('chartContainer', {
+                chart: {
+                    type: 'pie'
+                },
+                title: {
+                    text: 'Client Distribution by Share'
+                },
+                tooltip: {
+                    pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                },
+                accessibility: {
+                    point: {
+                        valueSuffix: '%'
+                    }
+                },
+                plotOptions: {
+                    pie: {
+                        allowPointSelect: true,
+                        cursor: 'pointer',
+                        dataLabels: {
+                            enabled: true,
+                            format: '<b>{point.name}</b>: {point.percentage:.1f} %'
+                        }
+                    }
+                },
+                series: [{
+                    name: 'Clients',
+                    colorByPoint: true,
+                    data: [{
+                        name: 'Client A',
+                        y: 40
+                    }, {
+                        name: 'Client B',
+                        y: 25
+                    }, {
+                        name: 'Client C',
+                        y: 20
+                    }, {
+                        name: 'Client D',
+                        y: 15
+                    }]
+                }]
+            });
+        });
+    });
+    // monthly revenue
+
+    $(document).ready(function () {
+        $('#open-revenue').on('click', function () {
+
+            $('.summary_report .document_content').hide();
+            $('#chartContainer').show();
+
+            // Draw spline chart
+            Highcharts.chart('chartContainer', {
+                chart: {
+                    type: 'spline'
+                },
+                title: {
+                    text: 'Monthly Revenue Trend'
+                },
+                xAxis: {
+                    categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+                        'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                    title: {
+                        text: 'Month'
+                    }
+                },
+                yAxis: {
+                    title: {
+                        text: 'Revenue (in K)'
+                    },
+                    labels: {
+                        formatter: function () {
+                            return this.value + 'k';
+                        }
+                    }
+                },
+                tooltip: {
+                    valueSuffix: 'k'
+                },
+                series: [{
+                    name: 'Revenue',
+                    data: [80, 95, 120, 130, 150, 170, 190, 200, 180, 160, 140, 100]
+                }]
+            });
+        });
+    });
+
+
+</script>
+<script>
+
+    $(document).ready(function () {
+        $('#reportInput').on('input', function () {
+            var value = $(this).val().toLowerCase();
+            var hasVisible = false;
+
+            $('#report-note .report_main').each(function () {
+                if ($(this).text().toLowerCase().indexOf(value) > -1) {
+                    $(this).show();
+                    hasVisible = true;
+                } else {
+                    $(this).hide();
+                }
+            });
+
+            if (!hasVisible) {
+                $('#noResults').show();
+            } else {
+                $('#noResults').hide();
+            }
+        });
+    });
+</script>
+</body>
+
+</html>

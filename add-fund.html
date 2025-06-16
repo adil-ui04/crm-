@@ -1,0 +1,339 @@
+<div class="main_containers">
+    <div class="universal_title universal_title_custom">
+        <h1>Add Fund</h1>
+    </div>
+    <form class="forms-main" id="fr-form">
+        <section class="additional_form ">
+            <!-- left side -->
+            <section>
+                <div class="form_groups">
+                    <label for="client_name"><b>*</b>Client Name</label>
+                    <input type="text" name="client_name" placeholder="Client Name">
+                </div>
+
+                <div class="form_groups">
+                    <label>Client Status</label>
+                    <select class="--sel_width">
+                        <option selected disabled>Select Status</option>
+                        <option>Status 1</option>
+                    </select>
+                </div>
+
+                <div class="form_groups">
+                    <label>Client Code</label>
+                    <input type="text" placeholder="Enter code">
+                    <span class="note_txt">Enter code seprated with commas(,)</span>
+                </div>
+
+                <div class="form_groups">
+                    <label for="client_type"><b>*</b>Client Type</label>
+                    <select class="--sel_width" name="client_type">
+                        <option selected disabled> Select Client Type</option>
+                        <option>Banks</option>
+                    </select>
+                </div>
+
+                <div class="form_groups">
+                    <label>Nature of Business</label>
+                    <select class="--sel_width">
+                        <option value="" selected disabled>(None)</option>
+                        <option value="">(None)</option>
+                    </select>
+                </div>
+
+                <div class="form_groups">
+                    <label>Equity AUM</label>
+                    <input type="text" placeholder="Enter Equity AUM">
+                </div>
+
+                <div class="form_groups">
+                    <label>Short Name</label>
+                    <input type="text" placeholder="Enter Short Name">
+                </div>
+
+                <div class="form_groups">
+                    <label>Address 1</label>
+                    <input type="text" placeholder="Enter Address 1">
+                </div>
+
+                <div class="form_groups">
+                    <label>Address 2</label>
+                    <input type="text" placeholder="Enter Address 2">
+                </div>
+
+                <div class="form_groups">
+                    <label>Address 3</label>
+                    <input type="text" placeholder="Enter Address 3">
+                </div>
+
+                <div class="form_groups">
+                    <label>Geography</label>
+                    <select class="--sel_width">
+                        <option value="" selected disabled>(None)</option>
+                        <option value="">Region</option>
+                    </select>
+                </div>
+
+                <div class="form_groups">
+                    <label for="country"><b>*</b>Country</label>
+                    <select class="--sel_width" name="country" required>
+                        <option selected disabled>Select Country</option>
+                        <option>India</option>
+                    </select>
+                </div>
+
+                <div class="form_groups">
+                    <label for="city"><b>*</b>City</label>
+                    <select class="--sel_width" name="city" required>
+                        <option selected disabled>Choose City</option>
+                        <option>Mumbai</option>
+                    </select>
+                </div>
+
+                <div class="form_groups">
+                    <label>PIN</label>
+                    <input type="text" placeholder="Enter PIN">
+                </div>
+
+                <div class="form_groups">
+                    <label>Remarks</label>
+                    <textarea rows="5" placeholder="Enter remarks"></textarea>
+                </div>
+
+
+            </section>
+            <section>
+                <!-- Right Side -->
+                <div class="form_groups">
+                    <label>Driven By</label>
+                    <select class="--sel_width">
+                        <option value="" selected disabled>Select Driven</option>
+                        <option value="">Driven 1</option>
+                    </select>
+                </div>
+
+                <div class="form_checkbox">
+                    <input type="checkbox" name="">
+                    <label for="">Focus Client</label>
+                </div>
+
+                <div class="form_checkbox">
+                    <input type="checkbox" name="">
+                    <label for="">Any trader discretion?</label>
+                </div>
+                <div class="form_checkbox">
+                    <input type="checkbox" name="">
+                    <label for="">Special Weightage</label>
+                </div>
+
+                <div class="form_groups">
+                    <label>Client Tier</label>
+                    <select class="--sel_width">
+                        <option value="" selected disabled>Select Client Tier</option>
+                        <option value="">(None)</option>
+                    </select>
+                </div>
+
+                <div class="form_groups">
+                    <label>Vote Frequency</label>
+                    <select class="--sel_width">
+                        <option value="" selected disabled>Select Vote Frequency</option>
+                        <option value="">Quarterly</option>
+                    </select>
+                </div>
+
+                <div class="form_groups">
+                    <label>Weightage</label>
+                    <input type="text" placeholder="Enter Weightage">
+                </div>
+
+                <div class="form_groups">
+                    <label>Status</label>
+                    <div class="radios_group">
+                        <input type="radio" name="contactStatus" value="active">
+                        <label for="active">Active</label>
+                        <input type="radio" name="contactStatus" value="inactive" checked="">
+                        <label for="inactive">Inactive</label>
+                    </div>
+                </div>
+                <!-- <div class="form_groups">
+                    <label>Client Voting</label>
+                    <select class="--sel_width">
+                        <option value="" selected disabled> Select Client Voting</option>
+                        <option value="">Yes</option>
+                        <option value="">No</option>
+                    </select>
+                </div> -->
+
+                <div class="form_groups">
+                    <label>Client Voting</label>
+                    <div class="radios_group">
+                        <input type="radio" name="contactStatus" value="yes" checked="">
+                        <label for="yes">Yes</label>
+                        <input type="radio" name="contactStatus" value="no">
+                        <label for="no">No</label>
+                    </div>
+                </div>
+
+                <!-- <div class="form_groups">
+                    <label>Account Manager</label>
+                    <input type="text" placeholder="Enter Account Manager">
+                </div>
+
+                <div class="form_groups">
+                    <label>Secondary Account Manager</label>
+                    <input type="text" placeholder="Enter Secondary Account Manager">
+                </div>
+
+                <div class="form_groups">
+                    <label>Treasury Analyst</label>
+                    <input type="text" placeholder="Enter Treasury Analyst">
+                </div> -->
+
+                <div class="form_groups">
+                    <label>Account Manager</label>
+                    <select class="--sel_width">
+                        <option value="" selected disabled>Select Account </option>
+                        <option value="">(None)</option>
+                    </select>
+                </div>
+
+                <div class="form_groups">
+                    <label>Secondary Account Manager</label>
+                    <select class="--sel_width">
+                        <option value="" selected disabled>Select Secondary Account </option>
+                        <option value="">(None)</option>
+                    </select>
+                </div>
+
+                <div class="form_groups">
+                    <label>Treasury Analyst</label>
+                    <select class="--sel_width">
+                        <option value="" selected disabled>Select Treasury Analyst</option>
+                        <option value="">(None)</option>
+                    </select>
+                </div>
+
+
+
+                <div class="form_groups">
+                    <label>Group Name</label>
+                    <select class="--sel_width">
+                        <option value="" selected disabled>Select Group Name</option>
+                        <option value="">(None)</option>
+                    </select>
+                </div>
+
+                <div class="form_groups">
+                    <label>Revenue Type</label>
+                    <select class="--sel_width">
+                        <option value="" selected disabled>Select Revenue Type</option>
+                        <option value="none">(None)</option>
+                    </select>
+                </div>
+
+                <div class="form_groups">
+                    <label for="group_code">Group Code</label>
+                    <input type="text" placeholder="Enter Group Code">
+                </div>
+
+                <div class="form_groups">
+                    <label>Is IB Client</label>
+                    <div class="radios_group">
+                        <input type="radio" name="" value="Yes" checked="">
+                        <label for="Yes">Yes</label>
+                        <input type="radio" name="contactStatus" value="no">
+                        <label for="no">No</label>
+                    </div>
+                </div>
+
+                <div class="form_groups">
+                    <label for="time_zone">Time Zone</label>
+                    <select class="--sel_width">
+                        <option value="" selected disabled>Choose Time Zone</option>
+                        <option value="">IST</option>
+                    </select>
+                </div>
+
+                <div class="form_groups">
+                    <label>MIFID Name</label>
+                    <input type="text" placeholder="Enter MIFID Name">
+                </div>
+
+            </section>
+        </section>
+        <div class="form_groups">
+            <label>Tags</label>
+            <section class="tags_container">
+                <div>
+                    <ul class="tag_list t_added">
+                        <li>Agriculture - Hardcopy</li>
+                        <li>Airlines - Hardcopy</li>
+                        <li>AMC - Hardcopy</li>
+                        <li>Auto - Hardcopy</li>
+                        <li>Banks - Hardcopy</li>
+                        <li>Book Review - Hardcopy</li>
+                        <li>Building Materials - Hardcopy</li>
+                        <li>Business Services - Hardcopy</li>
+                        <li>Services - Hardcopy Business Services - Hardcopy Business Services - Hardcopy</li>
+                    </ul>
+                </div>
+                <div class="tbtn_main">
+                    <button type="button" class="tags_btn btn_add">Add ></button>
+                    <button type="button" class="tags_btn btn_remove">
+                        < Remove</button>
+                </div>
+                <div>
+                    <ul class="tag_list t_removed"></ul>
+                </div>
+            </section>
+        </div>
+        <div class="susan_btn">
+            <button type="submit" class="comm_btn">Save</button>
+            <button type="button" class="comm_btn --bg_white">Cancel</button>
+        </div>
+
+    </form>
+
+</div>
+
+<script>
+    $(document).ready(function () {
+        $("#fr-form").validate({
+            rules: {
+                client_name: {
+                    required: true,
+                    minlength: 4
+                },
+                client_type: {
+                    required: true
+                },
+                country: {
+                    required: true
+                },
+                city: {
+                    required: true
+                }
+            },
+            messages: {
+                client_name: {
+                    required: "select client name",
+                    minlength: "Name must be at least 4 characters long"
+                },
+                client_type: {
+                    required: "select client type"
+                },
+                country: {
+                    required: "select country"
+                },
+                city: {
+                    required: "select city"
+                }
+            },
+            submitHandler: function (form) {
+                alert("Form submitted successfully!");
+                form.submit();
+            }
+        });
+    });
+</script>
