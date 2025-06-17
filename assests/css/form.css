@@ -440,6 +440,9 @@ select.error {
 	.main_containers {
 		max-width: 100%;
 	}
+	.form_groups label {
+		margin-top: 0;
+	}
 }
 @media (max-width: 1024px) {
 	.product_header {

@@ -48,15 +48,21 @@
 	gap: 15px;
 	margin-top: 20px;
 }
-
+table#DataTable2 th,
+table#DataTable2 td {
+	vertical-align: middle;
+}
 .total_main {
 	padding: 20px;
 	border-radius: 8px;
 	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 	height: 100%;
 	background-color: var(--white);
+	padding-bottom: 56px;
 }
-
+.dashtble_main .table_responsive {
+	height: 100%;
+}
 .total_subtitle {
 	display: flex;
 	justify-content: space-between;
