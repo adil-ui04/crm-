@@ -168,6 +168,12 @@
 .cst_time {
 	display: none;
 }
+/* added by abhishek on 17 june 2025 */
+@media only screen and (max-width: 1366px) {
+	.clist2 {
+		font-size: 12px;
+	}
+}
 
 @media only screen and (max-width: 1200px) {
 	.call_grid {

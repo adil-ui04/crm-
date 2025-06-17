@@ -304,7 +304,6 @@ div#DataTables_Table_0_info {
 		div.dt-layout-row:not(.dt-layout-table)
 		div.dt-layout-cell.dt-layout-end {
 		margin-left: auto !important;
-		margin: 0 auto;
 	}
 	.--nav_search {
 		width: 200px;
