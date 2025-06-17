@@ -59,7 +59,20 @@
 	width: 100% !important;
 }
 .additional_form section {
-	width: 30%;
+	width: 50%;
+}
+@media (min-width: 1280px) {
+	.additional_form section {
+		width: 30%;
+	}
+}
+@media (max-width: 768px) {
+	.additional_form section {
+		width: 100%;
+	}
+	.additional_form {
+		flex-wrap: wrap;
+	}
 }
 select {
 	background-color: var(--white);
