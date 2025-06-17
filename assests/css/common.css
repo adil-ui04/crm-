@@ -374,6 +374,10 @@ select {
 	font-weight: 500;
 	cursor: pointer;
 	transition: background 0.3s;
+	transition: all 0.3s ease-in;
+}
+.comm_btn:hover {
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .comm_btn img {
 	width: 15px;
@@ -564,8 +568,8 @@ select {
 }
 /* added by abhishek on 16 june 2025 */
 .form-label span {
-            color: red;
-        }
+	color: red;
+}
 
 .form-control:focus,
 .form-select:focus {

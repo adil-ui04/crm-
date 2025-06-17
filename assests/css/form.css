@@ -62,6 +62,20 @@
 .additional_form section {
 	width: 31%;
 }
+@media (min-width: 1280px) {
+	.additional_form section {
+		width: 30%;
+		/* height: auto; */
+	}
+}
+@media (max-width: 768px) {
+	.additional_form section {
+		width: 100%;
+	}
+	.additional_form {
+		flex-wrap: wrap;
+	}
+}
 select {
 	background-color: var(--white);
 	color: var(--primary);
@@ -250,9 +264,9 @@ textarea {
 	background: #fff;
 }
 /* .additional_form {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	gap: 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
 } */
 .additional_form {
 	display: flex;
