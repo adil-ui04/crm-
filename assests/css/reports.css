@@ -207,6 +207,15 @@ input[type="checkbox"] {
 .flex_container .comm_btn_white img {
 	filter: brightness(0.5);
 }
+/* added by abhishek on 17 june 2025 */
+/* @media only screen and (max-width: 1366px) {
+	.report_grid {
+		display: block;
+	}
+	.report_tab {
+		width: 100%;
+	}
+} */
 
 @media only screen and (max-width: 1024px) {
 }

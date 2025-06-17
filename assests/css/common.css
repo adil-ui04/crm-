@@ -405,7 +405,7 @@ select {
 /* tasks */
 
 /* tab universal */
-
+/* added by abhishek on 17 june 2025  */
 .unitab-container {
 	display: flex;
 	flex-wrap: wrap;
@@ -414,6 +414,7 @@ select {
 	padding: 3px;
 	gap: 10px;
 	margin-bottom: 20px;
+	width: 100%;
 }
 .form_groups textarea {
 	border: 1px solid #e0e0e0;

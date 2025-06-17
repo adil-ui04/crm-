@@ -30,10 +30,11 @@
 	flex-direction: column;
 	margin-bottom: 20px;
 }
-
+/* added by abhishek on 17 june 2025 */
 .form_groups label {
-	font-size: 14px;
+	font-size: 12px;
 	margin-bottom: 5px;
+	margin-top: 5px;
 	font-weight: 600;
 }
 
@@ -59,7 +60,7 @@
 	width: 100% !important;
 }
 .additional_form section {
-	width: 30%;
+	width: 31%;
 }
 select {
 	background-color: var(--white);
@@ -67,10 +68,14 @@ select {
 	padding: 8px;
 	height: 35px;
 }
-
+/* added by abhishek on 17 june 2025 */
 .form_checkbox {
 	margin-bottom: 14px;
 	display: flex;
+	gap: 5px;
+}
+.form_checkbox input {
+	margin-top: 2px;
 }
 .form_checkbox label {
 	margin-left: 5px;
@@ -90,14 +95,14 @@ select {
 	margin-right: 20px;
 	margin-bottom: unset;
 }
-
+/* added by abhishek on 17 june 2025 */
 .susan_btn {
 	/* grid-column: span 2; */
 	display: flex;
 	/* justify-content: flex-end; */
 	gap: 10px;
-	margin-top: 15px;
-	margin-bottom: 30px;
+	margin-top: 40px;
+	margin-bottom: 0px;
 }
 
 .susan_btn button.comm_btn {
@@ -214,8 +219,15 @@ textarea {
 	flex-wrap: wrap;
 	border-bottom: 1px solid #e0e0e0;
 }
+
 .product-item label {
 	font-weight: 500;
+}
+/* added by abhishek on 17 june 2025 */
+.product-item input {
+	margin-right: 6px;
+	vertical-align: middle;
+	margin-bottom: 3px;
 }
 .we_label {
 	font-weight: 600 !important;
@@ -245,17 +257,22 @@ textarea {
 .additional_form {
 	display: flex;
 	grid-template-columns: 1fr 1fr;
-	gap: 50px;
+	gap: 80px;
 }
 .--sel_width {
 	width: 200px !important;
 }
-
+/* added by abhishek on 17 june 2025 */
 .tags_container {
 	display: flex;
 	align-items: center;
 	gap: 10px;
 	flex-wrap: wrap;
+	width: 100%;
+}
+/* added by abhishek on 17 june 2025 */
+.box_width_adjust {
+	width: 30%;
 }
 
 .tbtn_main {
@@ -263,10 +280,10 @@ textarea {
 	flex-direction: column;
 	gap: 10px;
 }
-
+/* added by abhishek on 17 june 2025 */
 ul.tag_list {
 	height: 200px;
-	width: 439px;
+	width: 100%;
 	overflow: auto;
 	font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
 	border: 1px solid #e0e0e0;
