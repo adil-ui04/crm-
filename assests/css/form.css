@@ -19,10 +19,11 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 40px;
-	border: 1px solid var(--gray);
+	border: 1px solid #e7e4e4;
 	padding: 20px;
 	border-radius: 5px;
 	background: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05)
 }
 
 .form_groups {
@@ -259,10 +260,11 @@ textarea {
 }
 /* 17march 24 */
 .forms-main {
-	border: 1px solid var(--gray);
-	padding: 20px;
-	border-radius: 5px;
-	background: #fff;
+	border: 1px solid #e7e4e4;
+    padding: 20px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05)
 }
 /* .additional_form {
         display: grid;
