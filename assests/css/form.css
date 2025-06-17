@@ -64,6 +64,7 @@
 @media (min-width: 1280px) {
 	.additional_form section {
 		width: 30%;
+		/* height: auto; */
 	}
 }
 @media (max-width: 768px) {
