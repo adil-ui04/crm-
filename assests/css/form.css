@@ -271,7 +271,7 @@ textarea {
 .additional_form {
 	display: flex;
 	grid-template-columns: 1fr 1fr;
-	gap: 80px;
+	gap: 100px;
 }
 .--sel_width {
 	width: 200px !important;
