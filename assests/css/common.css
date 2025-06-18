@@ -652,7 +652,7 @@ select {
   .--universal_table {
     padding-right: 7px;
   }
-  /* abhishek 18june */
+  /* added by abhishek on 18 june 2025 */
   .dt-layout-row {
     display: block !important;
   }
@@ -677,5 +677,17 @@ select {
   }
   select.align_mobile2 {
     width: 93%;
+  }
+  button.comm_btn {
+    height: 35px;
+  }
+  .comm_btn {
+    font-size: 11px;
+  }
+  .dashbaord_margin_adjust {
+    margin-top: 20px !important;
+  }
+  .dt-layout-cell.dt-layout-end {
+    margin-left: 0px !important;
   }
 }
