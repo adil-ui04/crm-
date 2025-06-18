@@ -52,6 +52,10 @@ table#DataTable2 th,
 table#DataTable2 td {
   vertical-align: middle;
 }
+table#DataTable2 th,
+table#DataTable2 td {
+	vertical-align: middle;
+}
 .total_main {
   padding: 20px;
   border-radius: 8px;
@@ -62,6 +66,9 @@ table#DataTable2 td {
 }
 .dashtble_main .table_responsive {
   height: 100%;
+}
+.dashtble_main .table_responsive {
+	height: 100%;
 }
 .total_subtitle {
   display: flex;
@@ -325,7 +332,7 @@ button.comm_btn.--view_btn {
   .dashboard_card {
     grid-template-columns: 1fr;
   }
-  /* added by abhishek on 18 june 2025 */
+  /* added by abhishek on 18 june 2025 */s
   .dashMain {
     grid-template-columns: 1fr;
   }

@@ -179,7 +179,11 @@ span.deal_sg {
 		flex-wrap: wrap;
 	}
 }
-
+@media (max-width: 768px) {
+	.--deal_m2 {
+		width: 100%;
+	}
+}
 @media only screen and (max-width: 475px) {
 	.unitab-container {
 		margin-bottom: 20px !important;

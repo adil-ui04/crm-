@@ -23,7 +23,7 @@
 	padding: 20px;
 	border-radius: 5px;
 	background: #fff;
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05)
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .form_groups {
@@ -261,10 +261,10 @@ textarea {
 /* 17march 24 */
 .forms-main {
 	border: 1px solid #e7e4e4;
-    padding: 20px;
-    border-radius: 5px;
-    background: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05)
+	padding: 20px;
+	border-radius: 5px;
+	background: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 /* .additional_form {
         display: grid;
@@ -443,6 +443,9 @@ select.error {
 	.main_containers {
 		max-width: 100%;
 	}
+	.form_groups label {
+		margin-top: 0;
+	}
 	.tags_container {
 		display: block;
 	}
@@ -452,6 +455,12 @@ select.error {
 	}
 	.tbtn_main {
 		padding-top: 20px;
+	}
+	.form_group_custom.form_groups {
+		margin: 0 11px;
+	}
+	.susan_btn {
+		margin: 30px 12px;
 	}
 }
 @media (max-width: 1024px) {

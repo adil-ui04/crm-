@@ -290,28 +290,27 @@ div#DataTables_Table_0_info {
 }
 
 @media only screen and (max-width: 767px) {
-  .table_responsive {
-    overflow-x: auto;
-    text-wrap: nowrap;
-    height: calc(80vh - 50px);
-    margin-top: unset;
-  }
-  div.dt-container,
-  .dashtble_main .table_responsive {
-    width: 99% !important;
-    overflow: hidden !important;
-  }
-  /* div.dt-container
-    div.dt-layout-row:not(.dt-layout-table)
-    div.dt-layout-cell.dt-layout-end {
-    margin-left: auto !important;
-  } */
-  .--nav_search {
-    width: 200px;
-  }
-  div.dt-container div.dt-layout-row:not(.dt-layout-table) {
-    display: flex !important;
-  }
+	.table_responsive {
+		overflow-x: auto;
+		text-wrap: nowrap;
+		height: calc(80vh - 50px);
+		margin-top: unset;
+	}
+	div.dt-container,
+	.dashtble_main .table_responsive {
+		width: 99% !important;
+	}
+	div.dt-container
+		div.dt-layout-row:not(.dt-layout-table)
+		div.dt-layout-cell.dt-layout-end {
+		margin-left: auto !important;
+	}
+	.--nav_search {
+		width: 200px;
+	}
+	div.dt-container div.dt-layout-row:not(.dt-layout-table) {
+		display: flex !important;
+	}
 }
 
 /* new dashboard crm */
